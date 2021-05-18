@@ -1,12 +1,37 @@
 .container {
   margin: auto;
-  max-width: 500px;
   font-family: sans-serif;
+  max-width: 1000px;
 }
 
-.heading {
-  color: rebeccapurple;
+h2{
+  font: 1.75rem sans-serif;
+  font-weight: 700;
 }
+
+h3{
+  font: 1.5rem sans-serif;
+  font-weight: 600;
+}
+
+h4{
+  font: 1.3rem sans-serif;
+  font-weight: 500;
+}
+
+p, li{
+  font: 1.15rem sans-serif;
+  line-height: 1.75rem;
+  font-weight: 300;
+}
+
+blockquote{
+  border-left: 5px solid #ccc;
+  margin: 10px 20px;
+  padding: 2.5px 1.5em;
+  font-size: 1.25rem;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -17,4 +42,9 @@
 }
 .nav-link-text {
   color: black;
+}
+
+hr{
+  margin: 25px 0px;
+  border: none;
 }

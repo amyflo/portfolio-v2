@@ -1,15 +1,15 @@
-// Step 1: Import React
-import * as React from 'react'
-import Layout from '../components/layout';
+import React from "react"
+import Layout from "../components/layout"
+import { Link } from "gatsby"
 
-// Step 2: Define your component
-const IndexPage = () => {
+export default function Home() {
   return (
-    <Layout pageTitle="Home Page">
-    <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout>
+      <h1>Amy Lo</h1>
+      <p>
+        Building out a test website in Gatsby!
+      </p>
+      <Link to="/censusacademy">Census Academy</Link>
     </Layout>
-  )
+  );
 }
-
-// Step 3: Export your component
-export default IndexPage
