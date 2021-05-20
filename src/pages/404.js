@@ -1,54 +1,43 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import Layout from "../components/layout";
+import { Link } from "gatsby";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
 const NotFoundPage = () => {
   return (
-    <main style={pageStyles}>
+    <Layout>
       <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
 
-export default NotFoundPage
+      <Row>
+        <Col>
+          <iframe
+            src="https://giphy.com/embed/ICOgUNjpvO0PC"
+            width="480"
+            height="359"
+            frameBorder="0"
+            class="giphy-embed"
+            title="gif of cat waving both its paws"
+            allowFullScreen
+          ></iframe>
+        </Col>
+        <Col>
+          <h1>Oops, you're lost! <span role="img" aria-label="pleading emoji">🥺</span></h1>
+          <p>
+            The page you're looking for does not exist. Or it does.. if you were
+            looking for a gif of a cute cat reaching for a high five. <strong>(High five, little guy!)</strong>
+          </p>
+          <p>
+            While we're here, did I mention that I'm always looking for new
+            opportunities? In fact, I happen to have a rather fancy piece of
+            paper called a <a href="/">resume</a> that you might want to check
+            out. Or you can <Link to="/about">learn more about me here!</Link>
+          </p>
+          <Link to="/">Take me back home!</Link>
+        </Col>
+      </Row>
+    </Layout>
+  );
+};
+
+export default NotFoundPage;

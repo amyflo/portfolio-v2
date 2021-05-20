@@ -17,6 +17,9 @@ module.exports = {
         name: `pages`,
       },
     },
+    {
+      resolve: `gatsby-plugin-image`,
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -24,18 +27,29 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-table-of-contents`,
+            options: {
+              exclude: "Table of Contents",
+              tight: false,
+              fromHeading: 2,
+              toHeading: 2
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1000,
-              linkImagesToOriginal:	true
+              maxWidth: 2500,
+              quality: 100,
+              linkImagesToOriginal: false,
+              showCaptions: ["title"],
+              markdownCaptions: true,
             },
           },
         ],
       },
-    }
-    
-  ]
-}
+    },
+  ],
+};
