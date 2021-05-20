@@ -4,14 +4,15 @@ date: "May 17, 2021"
 title: "Census Academy"
 description: "UX design and research for the U.S. Census Bureau's data courses – envisioning data education for the nation's largest provider of data."
 length: "5"
-src: "../images/headers/CensusAcademy.png"
-alt: "Mockup of Census Academy webpage with two screenshots of redesigned home page and course page"
 role: "UX Designer"
 team: "Amy Lo, Elliott Tran, Alexandra Barker, Mary Leisenring"
 timeline: "June 2020 - August 2020 (10 weeks)"
 tools: "Sketch, InVision"
 ---
 
+![Mockup of Census Academy webpage with two screenshots of redesigned home page and course page](../images/headers/CensusAcademy.png)
+
+---
 
 ## Introduction
 
@@ -25,7 +26,7 @@ I redesigned the entire learning management system for the Census Academy. In th
 * **Tools:** Sketch, InVision
 * **Duration:** 10 weeks
 
-___
+---
 
 ## What I didn't know
 Before this project, I had never heard of of user experience before. I joined the Civic Digital Fellowship with Coding it Forward with zero knowledge of user research. Everything you see in this case study was self-taught from a combination of Medium, online courses, heavy reading, and great mentorship from the folks at the Census. While I had a graphic design background, this project was the first time I've ever used Sketch or InVision. My skills have definitely improved since then!

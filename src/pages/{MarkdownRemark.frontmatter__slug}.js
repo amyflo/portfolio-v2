@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Fade from "react-reveal";
-import Img from "gatsby-image";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/layout";
 
@@ -19,11 +18,6 @@ export default function Template({
         <p>
           Last updated {frontmatter.date} – {frontmatter.length} min read
         </p>
-        <Img
-          fluid={frontmatter.src.childImageSharp.fluid}
-          alt={frontmatter.alt}
-        />
-        <hr />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -43,14 +37,6 @@ export const pageQuery = graphql`
         title
         length
         description
-        src {
-          childImageSharp {
-            fluid(quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        alt
       }
     }
   }
