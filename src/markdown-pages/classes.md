@@ -5,6 +5,11 @@ title: "Courses"
 description: "Collection of classes I've taken so far at Stanford."
 length: "5"
 ---
+
+![Design showcasing Stanford University logo, photo of Memorial Church overlayed on a black and white image of book pages.](../images/other/courses.png)
+
+---
+
 ## Year 1
 ### Fall 2019
 * **CS 106A:** Programming Methodology (Python)
