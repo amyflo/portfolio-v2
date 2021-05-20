@@ -1,17 +1,18 @@
-import React from "react"
-import { Link } from "gatsby"
-import * as containerStyles from "./layout.module.css"
+import React from "react";
+import { Link } from "gatsby";
+import * as containerStyles from "./layout.module.css";
+import Fade from "react-reveal/Fade";
 
-const ListLink = props => (
+const ListLink = (props) => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
-)
+);
 
 export default function Layout({ children }) {
   return (
-    <div className={containerStyles.container}>
-      <header style={{ marginBottom: `1.5rem` }}>
+    <Fade className={containerStyles.container} bottom>
+      <nav style={{ marginBottom: `4rem` }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>Amy Lo</h3>
         </Link>
@@ -19,8 +20,8 @@ export default function Layout({ children }) {
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
         </ul>
-      </header>
+      </nav>
       {children}
-    </div>
-  )
+    </Fade>
+  );
 }
