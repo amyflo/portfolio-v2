@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Fade from "react-reveal";
+import Fade from "react-reveal/Fade";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/layout";
 

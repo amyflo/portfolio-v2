@@ -18,13 +18,13 @@ html, body{
 }
 
 .container {
-  margin: auto;
+  margin: 10px;
   font-family: proxima-nova, sans-serif;
   max-width: 1350px;
 }
 
 div{
-  max-width: 80vw;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -130,14 +130,6 @@ figure {
 figcaption p{
   font-family: ivyjournal, sans-serif;
   font-size: 0.8rem;
-}
-
-
-.toc {
-  text-align: center;
-  float: left;
-  width: 100%;
-
 }
 
 nav{
