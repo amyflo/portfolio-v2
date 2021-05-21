@@ -8,7 +8,7 @@ export default function HomeCard(props) {
       <Card>
         {props.children}
         <Card.Body>
-          <h3>{props.headline}</h3>
+          <h4><strong>{props.headline}</strong></h4>
           <Card.Text>{props.text}</Card.Text>
         </Card.Body>
       </Card>
