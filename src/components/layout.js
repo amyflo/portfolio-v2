@@ -21,7 +21,7 @@ export default function Layout({ children }) {
             <ListLink to="/">Home</ListLink>
             <ListLink to="/about/">About</ListLink>
             <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-              <a href="https://docs.google.com/document/d/1sLzRq6rd5QYBvOyEkJeL8XUmNPfqZ-kbp26LK1dTY7c/edit?usp=sharing">
+              <a href="https://drive.google.com/file/d/1CD1GWTzZ6b_Zwb32NyKanRC961dAwN83/view?usp=sharing">
                 Resume
               </a>
             </li>
