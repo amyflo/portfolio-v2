@@ -76,9 +76,9 @@ This process took two weeks because we tested more than 15 different sites to co
 
 When used effectively, data can be extremely powerful for finding new customer leads, measuring sales, and understanding a local market.
 
-#### [67% of small businesses](https://smallbiztrends.com/2020/03/data-analytics-trends.html) are spending more than $10K a year on analytics.
+#### [67% of small businesses](https://smallbiztrends.com/2020/03/data-analytics-trends.html) are spending more than $10K a year on analytics
 
-#### 83% of our user research participants rely on data analytic tools to make business decisions.
+#### 83% of our user research participants rely on data analytic tools to make business decisions
 
 > “[Before the pandemic] we started working with a bunch of people who've essentially gone out of business, like brick and mortar stores. Most of them are non-existent. Our future was always going to be online.” - Participant 3
 
@@ -232,7 +232,7 @@ We gathered usability tests that we conducted during our research into a report 
 
 From our user interviews with six small businesses, we gained valuable insights into the future of the product! While I didn’t stay on the team to work on this further, here are a few suggestions from our interviews that are in the works:
 
-#### User Suggestions
+### User Suggestions
 
 - Would like an interactive walkthrough of Census Academy
 - Would like the ability to share completed courses and Data Challenges on LinkedIn
