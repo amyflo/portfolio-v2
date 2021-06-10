@@ -1,17 +1,26 @@
 import React from "react";
 import { Link } from "gatsby";
-import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
 
 export default function HomeCard(props) {
   return (
-    <Link to={props.link}>
-      <Card>
-        {props.children}
-        <Card.Body>
-          <h4><strong>{props.headline}</strong></h4>
-          <Card.Text>{props.text}</Card.Text>
-        </Card.Body>
-      </Card>
-    </Link>
+    <Col
+      className="home-container container"
+      style={{ margin: "30px auto" }}
+      xs={12}
+      md={6}
+    >
+      <Link to={props.link}>
+        <div className="card-container">
+          {props.children}
+          <h3 className="cardcopy" style={{ padding: "10px 0px" }}>
+            {props.headline}
+          </h3>
+        </div>
+      </Link>
+      <p className="cardcopy" style={{ padding: "0px" }}>
+        {props.text}
+      </p>
+    </Col>
   );
 }

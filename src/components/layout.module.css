@@ -1,113 +1,92 @@
 @import url("https://use.typekit.net/top4nrr.css");
 
 :root {
-  --mainColor: #3282b8;
-  --secondaryColor: #bbe1fa;
+  --mainColor: #3a86ff;
+  --secondaryColor: #ADCDFF;
   --headlineColor: #1e1d1f;
   --textColor: #5a5861;
-  --background: #FFFFFF;
+  --background: #ffffff;
 }
 
-html{
-  background-image: url(../images/pipes.png);
-}
-html, body{
+html,
+body {
   background-color: var(--background);
   color: var(--textColor);
-  min-height: 95vh;
-}
-
-.container {
-  margin: 10px;
-  font-family: proxima-nova, sans-serif;
-  max-width: 1350px;
-}
-
-div{
-  max-width: 1000px;
   margin: auto;
+  font-family: proxima-nova, sans-serif;
 }
 
-h2, h1, h3, h4{
+h2,
+h1,
+h3,
+h4 {
   color: var(--headlineColor);
-  font-family: ivyjournal, serif !important;
   font-weight: 600;
   line-height: 2.75rem;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
   color: var(--mainColor);
-  margin: 20px 0px;
 }
 
-h2{
-  font-size: 1.75rem;
-}
-
-h3{
+h3 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 1.25rem;
-  font-weight: 500;
-}
-
-strong{
   font-weight: 600;
-  color: var(--headlineColor);
 }
 
-p, li, td{
+strong {
+  font-weight: 600;
+  color: var(--mainColor);
+}
+
+p,
+li,
+td, .home-container {
   font-size: 1.15rem;
   line-height: 2rem;
+  max-width: 1000px;
+  margin: auto;
 }
 
-blockquote{
-  border-left: 6px solid;
-  color: var(--mainColor);
-  margin: 40px 20px;
-  padding: 0px 1.5em;
+p, .home-container {
+  padding: 10px;
 }
 
-blockquote p{
-  font-family: ivyjournal, sans-serif !important;
-  font-weight: 700;
+blockquote p {
+  border-left: 4px solid var(--mainColor);
+  padding: 10px 15px;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
   color: var(--mainColor);
-  font-weight: 500;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-  font-family: ivyjournal, sans-serif !important;
-}
-.nav-link-item {
-  padding-right: 2rem;
-  font-family: ivyjournal, sans-serif !important;
-}
-.nav-link-text {
-  font-family: ivyjournal, sans-serif !important;
-  color: var(--textColor);
 }
 
 a {
-  background:
-     linear-gradient(
-       to bottom, var(--secondaryColor) 0%,
-       var(--secondaryColor) 100%
-     );
+  background: linear-gradient(
+    to bottom,
+    var(--secondaryColor) 0%,
+    var(--secondaryColor) 100%
+  );
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 2px 2px;
-  color: var(--textColor);
   text-decoration: none;
-  transition: background-size .2s;
+  color: var(--headlineColor);
+  transition: background-size 0.2s;
 }
 
 a:hover {
@@ -116,26 +95,34 @@ a:hover {
   text-decoration: none;
 }
 
-hr{
+hr {
   margin: 50px 0px;
   color: var(--mainColor) !important;
-  
 }
 
-figure {
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-figcaption p{
+figcaption p {
   font-family: ivyjournal, sans-serif;
   font-size: 0.8rem;
+  margin: auto;
 }
 
-nav{
-  position:sticky; top: 0;
+nav {
   z-index: 1;
-  margin: 20px 0px;
-  padding: 20px 0px;
   background-color: var(--background);
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+iframe,
+figure{
+  padding: 2%;
+}
+
+video {
+  padding: 10px 0px;
+}
+
+figcaption {
+  text-align: center;
 }

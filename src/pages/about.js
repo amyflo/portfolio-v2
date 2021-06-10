@@ -1,27 +1,18 @@
 import React from "react";
 import Layout from "../components/layout";
-import { StaticImage } from "gatsby-plugin-image";
 import Fade from "react-reveal/Fade";
 import HomeCard from "../components/HomeCard";
+import Row from "react-bootstrap/Row";
 
 export default function Home() {
   return (
     <Layout>
       <title>About Amy Lo</title>
       <Fade bottom>
-        <h1>Amy Lo (she/her)</h1>
-        <h2>I'm a Computer Science and Psychology major at Stanford.</h2>
-        <hr />
-        <StaticImage
-          src="../images/about/me.jpg"
-          alt="A dinosaur"
-          placeholder="blurred"
-          layout="fullWidth"
-          quality="100"
-        />
-        <hr />
+        <h1>Amy Lo</h1>
+        <h2>Currently designing at the Federal Reserve Board.</h2>
         <h3>
-          I like exploring how code, neuroscience, and design all intersect.{" "}
+          I like exploring how code, psychology, and design all intersect.{" "}
         </h3>
         <p>
           I want to build better tools based on research, data, and psychology
@@ -58,26 +49,24 @@ export default function Home() {
           without my laptop in hand (with every fan running from having VSCode,
           Figma, Adobe CC, and the terminal all open at the same time).
         </p>
-        <br />
-        <div>
-          <HomeCard
+
+        <Row style={{ maxWidth: "1000px", margin: "10px auto" }}>
+          {/* <HomeCard
             link="/courses"
             headline="📚 Courses I've taken"
             text="A collection of classes I've taken so far at Stanford University from frosh to sophomore year. Updated May 2021."
-          />
-          <br />
+          /> */}
           <HomeCard
             link="/fails"
             headline="💔 Failure resume"
-            text="Facing my fear: where I document my mistakes and growth over time and look back on my career journey so far."
+            text="Facing my fear: where I document my mistakes and growth over time and look back on my career journey."
           />
-          <br />
           <HomeCard
             link="/list"
             headline="💌 My corner of the internet"
             text="My digital list of people and experiences that inspire me everyday to be a better designer, coder, and human."
           />
-        </div>
+        </Row>
       </Fade>
     </Layout>
   );

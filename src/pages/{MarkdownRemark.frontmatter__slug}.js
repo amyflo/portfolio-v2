@@ -12,12 +12,12 @@ export default function Template({
   return (
     <Layout className="blog-post-container">
       <Fade className="blog-post" bottom>
-        <title>{frontmatter.title}</title>
+        <title>{frontmatter.title} | Amy Lo</title>
         <h1>{frontmatter.title}</h1>
-        <h4>{frontmatter.description}</h4>
-        <p>
-          Last updated {frontmatter.date} – {frontmatter.length} min read
-        </p>
+        <p>{frontmatter.description}</p>
+        <h2 style={{margin:"0px auto 20px "}}>
+          Updated {frontmatter.date} – {frontmatter.length} min read
+        </h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
