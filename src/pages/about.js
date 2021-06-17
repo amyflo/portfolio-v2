@@ -15,13 +15,13 @@ export default function Home() {
           I like exploring how code, psychology, and design all intersect.{" "}
         </h3>
         <p>
-          I want to build better tools based on research, data, and psychology
-          principles that can help our tired human brains focus on what's really
-          important in life: family, friends, culture, and a good old-fashioned
-          game of Mario Kart. I became interested in product design and code
-          after attending some of my first few classes at Stanford, where I was
-          amazed by how technology could be shaped and molded to influence
-          people's behavior and biology.
+          I want to build better tools based on research, data, and
+          psychological principles that can help our tired human brains focus on
+          what's really important in life: family, friends, culture, and a good
+          old-fashioned game of Mario Kart. I became interested in product
+          design and code after attending some of my first few classes at
+          Stanford, where I was amazed by how technology could be shaped and
+          molded to influence people's behavior and biology.
         </p>
         <h3>
           Professionally, I've worked across both the public and private

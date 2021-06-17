@@ -8,6 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function Home() {
   return (
     <Layout>
+      <meta property="og:image" content="../images/preview.png" />
       <title>Amy Lo</title>
       <Fade top>
         <h2>Welcome to my site!</h2>
