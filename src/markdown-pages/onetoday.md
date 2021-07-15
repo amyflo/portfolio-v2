@@ -21,24 +21,6 @@ This project was a third place winner for Wellesley’s 2021 REVIVE Designathon.
 
 ---
 
-## About the event
-
-![Banner from REVIVE Designathon showing logo on purple background. Text on the image is "Wellesley in Product presents: REVIVE, redesign the failed and forgotten products of our century](../images/onetoday/revive_banner.png)
-
-### REVIVE Designathon
-
-REVIVE is a designathon challenging participants to redesign a failed or forgotten product hosted by Wellesley. For 24-hours, participants chose a product to create an improved innovation. My partner was Sathya Edamadaka, who had never designed before this competition! Our project won third place, and we got the chance to present together during awards.
-
----
-
-## Solution Preview
-
-<figure><img alt="" src="../images/onetoday/previews/Preview1.png"/></figure>
-<figure><img alt="" src="../images/onetoday/previews/Preview2.png"/></figure>
-<figure><img alt="" src="../images/onetoday/previews/Preview3.png"/></figure>
-
----
-
 ## Background
 
 ### Overview
@@ -59,9 +41,27 @@ Redesign the One Today app to drive daily donations based on social interactions
 
 ---
 
+## About the event
+
+![Banner from REVIVE Designathon showing logo on purple background. Text on the image is "Wellesley in Product presents: REVIVE, redesign the failed and forgotten products of our century](../images/onetoday/revive_banner.png)
+
+### REVIVE Designathon
+
+REVIVE is a designathon challenging participants to redesign a failed or forgotten product hosted by Wellesley. For 24-hours, participants chose a product to create an improved innovation. My partner was Sathya Edamadaka, who had never designed before this competition!
+
+---
+
+## Solution Preview
+
+<figure><img alt="" src="../images/onetoday/previews/Preview1.png"/></figure>
+<figure><img alt="" src="../images/onetoday/previews/Preview2.png"/></figure>
+<figure><img alt="" src="../images/onetoday/previews/Preview3.png"/></figure>
+
+---
+
 ## Research
 
-### Flow analysis
+### Old Flow Analysis
 
 In order to rethink the product strategy and overall redesign, we first had to create a user flow to understand how users previously donated on the app. This was incredibly challenging because the app had ended last year, so we had to rely on old press releases and screenshots in order to piece together the user flow of the app.
 
@@ -101,9 +101,7 @@ Originally, we brainstormed ideas around how we could introduce new features aro
 
 1. Remove friction to donating in the transaction process
 2. Make donating feel as social as possible
-3. Recommend fundraisers in their area
-4. Help people team up to expand their impact
-5. Provide a reason to come back everyday
+3. Provide a reason to come back everyday
 
 ---
 
@@ -115,11 +113,11 @@ Before we started designing, Sathya and I explored different ideas about what th
 
 ![Headline "Narrowing down our features" with notes on new features we proposed. Headline "Visual Explorations on Figja" with two different digital sketches.](../images/onetoday/Ideation.png "Early exploration as we worked our new product ideas")
 
-### Revised User Flow
+### New User Flow
 
 For the user flow of our app, we spent about two to three hours working out the different interactions that a user would take when donating on the app. Our flow was created by iteratively asking questions: each time we proposed a new feature, we both thoroughly asked and probed at it to make sure that what we introduced made sense. It also helped that Sathya had a more technical background in development to judge the feasibility of different product decisions.
 
-#### Sample questions
+#### Questions we asked ourselves
 
 * How would a user find and explore new causes?
   * Explore - see suggested by causes
