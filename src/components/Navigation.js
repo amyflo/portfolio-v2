@@ -16,7 +16,9 @@ function Navigation() {
         </Link>
         <ul style={{ listStyle: `none`, float: `right`, padding: "7px" }}>
           <ListLink to="/">Home</ListLink>
-          <ListLink to="/about/">About</ListLink>
+          {/* <ListLink to="/gallery">Gallery</ListLink> */}
+          
+          <ListLink to="/about">About</ListLink>
           <li style={{ display: `inline-block` }}>
             <a href="https://drive.google.com/file/d/1CD1GWTzZ6b_Zwb32NyKanRC961dAwN83/view?usp=sharing">
               Resume

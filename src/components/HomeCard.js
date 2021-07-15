@@ -8,7 +8,8 @@ export default function HomeCard(props) {
       className="home-container container"
       style={{ margin: "30px auto" }}
       xs={12}
-      md={6}
+      sm={12}
+      md={props.md}
     >
       <Link to={props.link}>
         <div className="card-container">
