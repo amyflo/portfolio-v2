@@ -20,7 +20,7 @@ function Navigation() {
           
           <ListLink to="/about">About</ListLink>
           <li style={{ display: `inline-block` }}>
-            <a href="https://drive.google.com/file/d/1CD1GWTzZ6b_Zwb32NyKanRC961dAwN83/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/10h0liBXZUXemYVPQSm1lXy3pdHP8u1ki/view?usp=sharing">
               Resume
             </a>
           </li>
