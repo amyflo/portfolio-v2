@@ -119,8 +119,6 @@ Prototyping on Adobe XD was new for us and we had multiple screens with complex 
 
 Here is our final solution!
 
----
-
 > Solution #1: Smart Refrigerator (Dietary Restrictions)
 Nutrikitchen regulates your dietary needs by keeping track of the foods you eat and what’s inside your refrigerator.
 
@@ -152,6 +150,8 @@ Using motion detection, Nutrikitchen will alert you when you grab foods that may
 
 ## Results
 
+![Nutrikitchen finalist screen from team DoLo](../images/nutrikitchen/finalist.png)
+
 ### Awards
 
 > We became Top 10 finalists out of 130 teams!
@@ -163,12 +163,50 @@ Our app was evaluated on the following criteria:
 3. Is the user experience and interface intuitive?
 4. Is visual design used in a thoughtful and meaningful way?
 
-![Nutrikitchen finalist screen from team DoLo](../images/nutrikitchen/finalist.png)
-
 We received notification that we made it to the top 10 and had a few days to prepare for the next round! As finalists, we presented in the Finale with a live 3-minute demo of our app and its user flow.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJbQctekcbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Feedback
 
 > "This is definitely a really, really cohesive app in terms of the designs and the concept, too. I think the illustrations are really great, and the theme is tied together really well!" - Justin Fulller, Amazon / Ring (Product Experience)
 
 After our presentation, our judges gave feedback on our app design, valuing its layout and understanding of design principles the most. They offered us advice on how to improve our app to make it more accessible and easy to understand for individuals like the elderly.
+
+## Takeaways
+
+### Deliver to user expectations
+
+One thing that we learned was how to better address user needs in our presentation. Having to synthesize and compete under pressure against finalists helped us really learn how to elaborate on our work and make it clear who our users were in our script. However, it was a learning opportunity to match the expectations of our stakeholders, the judges. Because they had more of a product background, it would have been valuable in our ideation to consider some of the long-term product questions that would have come up if this was a real app.
+
+### Refine the scope of the project
+
+Our app was really complex and had many moving parts for the features. Simplifying the project to an understandable user flow could have made our presentation easier to understand for our judges and may have made us more successful. We also could have conducted user research if we had more access to our target users to make our design decisions more nuanced and valid.
+
+### Time management throughout the design process
+
+Good time management helped alleviate the stress that could have come with our tight timeline. Tracy and I were both working our internships during the competition process, so balancing our work together asynchronously helped us quickly iterate through screens and ideas. This was definitely a lesson learned for us for how to do GOOD work quickly and iteratively without sacrificing quality.
+
+---
+
+## Next Steps
+
+### Usability testing
+
+How might people with different abilities and complex needs use our product? 
+It was important for us to consider after our completionn of the project whether or not this would be feasible for different groups. Ideally, we would make more corrections to our app's user flow to make it feel more intuitive for users of different technology needs and backgrounds.
+
+How might we design for shared households that may all use the same appliances?
+Our app solution centered around one inndividual with medical and dietary needs. It might be interesting to explore what our app could look like with families or larger groups that might share smart kitchen appliances.
+
+### Feasibility and Execution
+
+Could our project actually be executed as an MVP?
+Our app was very complex. Questions following our design were around whether or not our interactions would work with smart technology and how it would be able to integrate multiple smart devices into one app.
+
+### Product roadmap
+
+The biggest question derived from our product is: What steps would we take to make this real? Our reliance was on smart kitchen technology that may not exist with the features we want. While we're competing in a relatively under-developed market, many of the features we would want may not integrate or exist with the current technology.
+
+
+Another step we could take would be working with the UI of physical appliances.  Designing for smart devices has to fit both the material and digital constraints. This led us to question: How would physical appliances interact with our app? How would our UI be constructed to fit material needs?
