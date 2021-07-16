@@ -26,7 +26,7 @@ export default function Home() {
             md="6"
             link="/nutrikitchen"
             headline="Nutrikitchen"
-            text="Smart kitchen and health app that understands your medical and dietary needs. Top 10 finalist in Adobe College + Ring Creative Jam ."
+            text="Smart kitchen and health app that understands your medical and dietary needs. Top 10 finalist in Adobe College + Ring Creative Jam."
           >
             <StaticImage
               src="../images/headers/nutrikitchen.png"
