@@ -24,17 +24,6 @@ export default function Home() {
         <Row style={{ maxWidth: "1000px", margin: "10px auto" }}>
           <HomeCard
             md="6"
-            link="/onetoday"
-            headline="Google One Today"
-            text="Redesigning social donations for a failed Google product. Won 3rd place at Wellesley's REVIVE Designathon."
-          >
-            <StaticImage
-              src="../images/headers/google.png"
-              alt="Mocckup of two phone screens showcasing donations next to Google logo in the center."
-            />
-          </HomeCard>
-          <HomeCard
-            md="6"
             link="/nutrikitchen"
             headline="Nutrikitchen"
             text="Smart kitchen and health app that understands your medical and dietary needs. Top 10 finalist in Adobe College + Ring Creative Jam ."
@@ -45,7 +34,19 @@ export default function Home() {
             />
           </HomeCard>
           <HomeCard
-          md="6"
+            md="6"
+            link="/onetoday"
+            headline="Google One Today"
+            text="Redesigning social donations for a failed Google product. Won 3rd place at Wellesley's REVIVE Designathon."
+          >
+            <StaticImage
+              src="../images/headers/google.png"
+              alt="Mocckup of two phone screens showcasing donations next to Google logo in the center."
+            />
+          </HomeCard>
+
+          <HomeCard
+            md="6"
             link="/censusacademy"
             headline="U.S. Census Bureau: Census Academy"
             text="Envisioning data education for the nation's largest provider of data."
@@ -57,7 +58,7 @@ export default function Home() {
           </HomeCard>
 
           <HomeCard
-          md="6"
+            md="6"
             link=""
             headline="Federal Reserve Board - WIP"
             text="Building a design system for the Monetary Affairs Team to create better financial tools."
