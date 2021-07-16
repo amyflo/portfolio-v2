@@ -6,7 +6,8 @@ description: "All-in-one smart kitchen and health app that understands your medi
 length: "5"
 ---
 
-![Mockup of Nutrikitchen app](../images/headers/nutrikitchen.png)
+<img alt="Mockup of three phone screens from Nutrikitchen app." src="../images/headers/google.png"/>
+<br />
 
 ---
 
