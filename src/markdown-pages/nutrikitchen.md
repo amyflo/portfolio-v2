@@ -193,7 +193,7 @@ Good time management helped alleviate the stress that could have come with our t
 
 ### Usability testing
 
-How might people with different abilities and complex needs use our product? 
+How might people with different abilities and complex needs use our product?  
 It was important for us to consider after our completionn of the project whether or not this would be feasible for different groups. Ideally, we would make more corrections to our app's user flow to make it feel more intuitive for users of different technology needs and backgrounds.
 
 How might we design for shared households that may all use the same appliances?
@@ -207,6 +207,5 @@ Our app was very complex. Questions following our design were around whether or 
 ### Product roadmap
 
 The biggest question derived from our product is: What steps would we take to make this real? Our reliance was on smart kitchen technology that may not exist with the features we want. While we're competing in a relatively under-developed market, many of the features we would want may not integrate or exist with the current technology.
-
 
 Another step we could take would be working with the UI of physical appliances.  Designing for smart devices has to fit both the material and digital constraints. This led us to question: How would physical appliances interact with our app? How would our UI be constructed to fit material needs?
