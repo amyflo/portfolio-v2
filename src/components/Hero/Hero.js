@@ -14,8 +14,12 @@ function Hero() {
           Amy is a designer who likes to code, studying computer science and
           psychology at Stanford.
         </h1>
-        <Button variant="dark" text="Get in touch" />
-        <Button variant="dark" href="https://google.com" text="View all work" />
+        <Button variant="dark" href="/about" text="About me" />
+        <Button
+          variant="dark"
+          href="https://drive.google.com/file/d/10h0liBXZUXemYVPQSm1lXy3pdHP8u1ki/view"
+          text="Get my resume"
+        />
       </div>
     </Fade>
   );
