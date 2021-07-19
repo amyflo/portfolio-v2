@@ -26,6 +26,9 @@ export default function Navigation() {
             >
               <p className="underline">Resume</p>
             </a>
+            <a className="nav-link" href="https://www.linkedin.com/in/amyflo/">
+              <p className="underline">LinkedIn</p>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>
