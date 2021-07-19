@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Fade from "react-reveal/Fade";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Layout from "../components/Layout/layout";
+import Layout from "../components/Layout/Layout";
 import PageEnd from "../components/PageEnd/PageEnd";
 
 export default function Template({
