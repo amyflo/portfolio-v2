@@ -1,7 +1,7 @@
 ---
 slug: "/courses"
 date: "May 17, 2021"
-title: "Courses from Stanford"
+title: "Courses I've taken"
 description: "Collection of classes I've taken so far at Stanford."
 length: "1"
 ---
@@ -11,13 +11,16 @@ length: "1"
 ---
 
 ## Year 1
+
 ### Fall 2019
+
 * **CS 106A:** Programming Methodology (Python)
 * **MATH 51:** Linear Algebra, Multivariable Calculus, and Modern Applications
 * **PSYCH 1:** Introduction to Psychology
 * **UAR 101A** Frosh 101
 
 ### Winter 2020
+
 * **ME 110:** Design Sketching
 * **PSYCH 195:** Special Laboratory Projects (Research with Jeanne Tsai)
 * **PHYSICS 41:** Mechanics
@@ -25,6 +28,7 @@ length: "1"
 * **STATS 60:** Introduction to Statistical Methods: Precalculus (Language: R)
 
 ### Spring 2020
+
 * **CS 106B:** Programming Abstractions (Language: C++)
 * **PSYCH 45:** Introduction to Learning and Memory
   * Cognitive Neuroscience and applications from machine learning
@@ -38,7 +42,8 @@ length: "1"
 
 ## Year 2
 
-I took a gap year to work at the Lenovo, the U.S. Census Bureau, and 50+1 Strategies due to the pandemic. 
+I took a gap year to work at the Lenovo, the U.S. Census Bureau, and 50+1 Strategies due to the pandemic.
 
 ### Winter 2021 (Flex)
+
 * **CS107:** Computer Systems and Organizations

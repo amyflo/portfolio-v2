@@ -1,32 +1,30 @@
 import React from "react";
-import Layout from "../components/layout";
-import Fade from "react-reveal/Fade";
+import Layout from "../components/Layout/layout";
 import Row from "react-bootstrap/Row";
-import HomeCard from "../components/HomeCard";
+import HomeCard from "../components/HomeCard/HomeCard";
 import { StaticImage } from "gatsby-plugin-image";
+import Hero from "../components/Hero/Hero";
+import ListItem from "../components/ListItem/ListItem";
+import PageEnd from "../components/PageEnd/PageEnd";
+import Blog from "../components/Blog/Blog";
 
 export default function Home() {
   return (
     <Layout>
       <title>Amy Lo</title>
-      <Fade top>
-        <h2>Welcome to my site!</h2>
-        <h1>Amy is a designer who likes to code.</h1>
-        <p>
-          I'm a Computer Science and Psychology major at Stanford University. I
-          thrive on mango smoothies, clean code, and properly named layers on
-          Figma, Sketch, and Photoshop.
-        </p>
-      </Fade>
-      <br />
-      <br />
+      <Hero>
+        <StaticImage
+          src="../images/logo.png"
+          alt="Mockup of two phone screens showcasing donations next to Google logo in the center."
+        />
+      </Hero>
       <div className="home-container">
         <Row style={{ maxWidth: "1000px", margin: "10px auto" }}>
           <HomeCard
             md="6"
             link="/nutrikitchen"
             headline="Nutrikitchen"
-            text="Smart kitchen and health app that understands your medical and dietary needs. Top 10 finalist in Adobe College + Ring Creative Jam ."
+            text="Smart kitchen and health app that understands your medical and dietary needs. Top 10 finalist in Adobe College + Ring Creative Jam."
           >
             <StaticImage
               src="../images/headers/nutrikitchen.png"
@@ -60,7 +58,7 @@ export default function Home() {
           <HomeCard
             md="6"
             link=""
-            headline="Federal Reserve Board - WIP"
+            headline="Federal Reserve Board: Design System"
             text="Building a design system for the Monetary Affairs Team to create better financial tools."
           >
             <StaticImage
@@ -81,6 +79,13 @@ export default function Home() {
           </HomeCard> */}
         </Row>
       </div>
+      <Blog />
+
+      <PageEnd
+        headline="I try to be a good person first, and everything else second."
+        text="About me"
+        href="/about/"
+      />
     </Layout>
   );
 }

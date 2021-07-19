@@ -1,0 +1,17 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    radial-gradient(
+      75% 75% at 50% 50%,
+      #ffb444 0%,
+      rgb(255, 252, 104, 0.6) 40%,
+      rgba(62, 133, 255, 0) 100%,
+      rgba(100, 142, 219, 0.194968) 100%
+    ),
+    #3e85ff;
+}
+
+.hero h1{
+    color: white;
+}
