@@ -1,10 +1,9 @@
 import React from "react";
-import Layout from "../components/Layout/layout";
+import Layout from "../components/Layout/Layout";
 import Row from "react-bootstrap/Row";
 import HomeCard from "../components/HomeCard/HomeCard";
 import { StaticImage } from "gatsby-plugin-image";
 import Hero from "../components/Hero/Hero";
-import ListItem from "../components/ListItem/ListItem";
 import PageEnd from "../components/PageEnd/PageEnd";
 import Blog from "../components/Blog/Blog";
 

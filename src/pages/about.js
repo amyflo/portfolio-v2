@@ -1,13 +1,8 @@
 import React from "react";
-import Layout from "../components/Layout/layout";
+import Layout from "../components/Layout/Layout";
 import Fade from "react-reveal/Fade";
 import Blog from "../components/Blog/Blog";
-import Button from "../components/Button/Button";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import ListGroup from "../components/ListGroup/ListGroup";
-import ListItem from "../components/ListItem/ListItem";
 import { StaticImage } from "gatsby-plugin-image";
 
 export default function About() {
