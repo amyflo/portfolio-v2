@@ -1,14 +1,12 @@
 @import url("https://use.typekit.net/top4nrr.css");
 
 :root {
-  --mainColor: #3a86ff;
-  --secondaryColor: #ADCDFF;
-  --headlineColor: #1e1d1f;
-  --textColor: #5a5861;
-  --background: #ffffff;
+  --mainColor:#FFB444;
+  --SecondaryColor: #3a86ff;
+  --headlineColor: #000000;
+  --textColor:#454545;
 }
 
-html,
 body {
   background-color: var(--background);
   color: var(--textColor);
@@ -16,70 +14,86 @@ body {
   font-family: proxima-nova, sans-serif;
 }
 
-h2,
 h1,
+h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   color: var(--headlineColor);
-  font-weight: 600;
-  line-height: 2.75rem;
   max-width: 1000px;
   margin: auto;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.15rem;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
-  color: var(--mainColor);
+  color: var(--SecondaryColor);
+  font-weight: 800;
+  letter-spacing: 1px;
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.75rem;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-strong {
-  font-weight: 600;
-  color: var(--mainColor);
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1.15rem;
 }
 
 p,
 li,
-td, .home-container {
-  font-size: 1.15rem;
-  line-height: 2rem;
+td,
+.home-container {
+  font-size: 1.25em;
+  line-height: 2.5rem;
   max-width: 1000px;
   margin: auto;
+  padding: 0px 10px;
 }
 
-p, .home-container {
-  padding: 10px;
+p {
+  margin: 20px auto;
 }
 
 blockquote p {
-  border-left: 4px solid var(--mainColor);
+  border-left: 4px solid var(--SecondaryColor);
   padding: 10px 15px;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5rem;
-  color: var(--mainColor);
+  color: var(--SecondaryColor);
 }
 
+a{
+  color: black;
+  background-color: #FFFD77;
+}
+
+a:hover{
+  color: black;
+}
+/* 
 a {
   background: linear-gradient(
     to bottom,
-    var(--secondaryColor) 0%,
-    var(--secondaryColor) 100%
+    var(--SecondaryColor) 0%,
+    var(--SecondaryColor) 100%
   );
   background-position: 0 100%;
   background-repeat: repeat-x;
@@ -93,29 +107,20 @@ a:hover {
   background-size: 4px 50px;
   color: var(--headlineColor);
   text-decoration: none;
-}
+} */
 
 hr {
   margin: 50px 0px;
-  color: var(--mainColor) !important;
 }
 
 figcaption p {
-  font-family: ivyjournal, sans-serif;
-  font-size: 0.8rem;
-  margin: auto;
-}
-
-nav {
-  z-index: 1;
-  background-color: var(--background);
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px 0px;
+  font-family: ivyjournal, serif;
+  font-size: 1.15rem;
+  margin: 10px auto;
 }
 
 iframe,
-figure{
+figure {
   padding: 2%;
 }
 
@@ -126,3 +131,4 @@ video {
 figcaption {
   text-align: center;
 }
+

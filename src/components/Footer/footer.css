@@ -1,0 +1,23 @@
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+}
+
+footer h1{
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .footer-about{
+        text-align: center;
+    }
+}
+
+.footer-link{
+    color: white;
+    background-color: transparent;
+}
+
+.footer-link:hover{
+    color: white;
+}

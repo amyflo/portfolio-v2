@@ -1,5 +1,5 @@
 import * as React from "react";
-import Layout from "../components/layout";
+import Layout from "../components/Layout/layout";
 import { Link } from "gatsby";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";

@@ -14,12 +14,15 @@ export default function HomeCard(props) {
       <Link to={props.link}>
         <div className="card-container">
           {props.children}
-          <h3 className="cardcopy" style={{ padding: "10px 0px" }}>
+          <h3
+            className="cardcopy underline"
+            style={{ padding: "10px 0px", margin: "0px" }}
+          >
             {props.headline}
           </h3>
         </div>
       </Link>
-      <p className="cardcopy" style={{ padding: "0px" }}>
+      <p className="cardcopy" style={{ padding: "0px", margin: "0px" }}>
         {props.text}
       </p>
     </Col>
