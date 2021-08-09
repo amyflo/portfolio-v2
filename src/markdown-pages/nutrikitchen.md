@@ -116,7 +116,7 @@ Prototyping on Adobe XD was new for us and we had multiple screens with complex 
 
 ## Solution
 
-### View the [interactive prototype here.]("https://xd.adobe.com/view/9da0b7ce-cdd0-4cd9-a641-445b3358716c-c8f3/?fullscreen")
+### View the [interactive prototype here.](https://xd.adobe.com/view/9da0b7ce-cdd0-4cd9-a641-445b3358716c-c8f3/?fullscreen)
 
 Here is our final solution!
 
