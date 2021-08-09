@@ -22,7 +22,7 @@ export default function Navigation() {
             </Nav.Link>
             <a
               className="nav-link"
-              href="https://drive.google.com/file/d/10h0liBXZUXemYVPQSm1lXy3pdHP8u1ki/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qDcGEYL3gGRbkDgwN4Irhz7-vaU5Ojyy/view?usp=sharing"
             >
               <p className="underline">Resume</p>
             </a>
