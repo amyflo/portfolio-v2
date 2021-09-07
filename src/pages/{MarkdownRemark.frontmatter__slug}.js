@@ -46,7 +46,7 @@ export default function Template({
         <PageEnd
           headline="Congratulations - You've made it to the end!"
           text="Go back home"
-          href="/"
+          href="/#"
         />
       </Fade>
     </Layout>
