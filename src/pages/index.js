@@ -67,7 +67,7 @@ export default function Home() {
           <HomeCard
             md="6"
             link="/fed"
-            headline="Federal Reserve Board: Design System"
+            headline="Federal Reserve Board"
             text="Building a design system for the Monetary Affairs Team to create better financial tools."
           >
             <StaticImage

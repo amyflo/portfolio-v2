@@ -29,7 +29,7 @@ export default function Footer() {
               variant="dark"
             />
             <Button
-              href="https://drive.google.com/file/d/10h0liBXZUXemYVPQSm1lXy3pdHP8u1ki/view"
+              href="https://drive.google.com/file/d/1qDcGEYL3gGRbkDgwN4Irhz7-vaU5Ojyy/view?usp=sharing"
               text="Get my resume"
               variant="dark"
             />
