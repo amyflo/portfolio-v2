@@ -5,7 +5,6 @@ import HomeCard from "../components/HomeCard/HomeCard";
 import { StaticImage } from "gatsby-plugin-image";
 import Hero from "../components/Hero/Hero";
 import PageEnd from "../components/PageEnd/PageEnd";
-import Blog from "../components/Blog/Blog";
 
 export default function Home() {
   return (
@@ -18,7 +17,18 @@ export default function Home() {
         />
       </Hero>
       <div className="home-container">
-        <Row style={{ maxWidth: "1000px", margin: "10px auto" }}>
+        <Row style={{ maxWidth: "1300px", margin: "10px auto" }}>
+          <HomeCard
+            md="6"
+            link="/stamply"
+            headline="Stamply"
+            text="Android app that helps you discover local businesses and earn loyalty rewards for shopping small. First place at Adobe College + Instagram Creative Jam."
+          >
+            <StaticImage
+              src="../images/headers/stamply.png"
+              alt="Mocckup of two phone screens showcasing donations next to Google logo in the center."
+            />
+          </HomeCard>
           <HomeCard
             md="6"
             link="/nutrikitchen"
@@ -56,8 +66,8 @@ export default function Home() {
 
           <HomeCard
             md="6"
-            link=""
-            headline="Coming soon | Federal Reserve Board: Design System"
+            link="/fed"
+            headline="Federal Reserve Board"
             text="Building a design system for the Monetary Affairs Team to create better financial tools."
           >
             <StaticImage
@@ -65,21 +75,19 @@ export default function Home() {
               alt="Federal Reserve Board logo on a blue background."
             />
           </HomeCard>
-          {/* <HomeCard
-          md="6"
-            link=""
-            headline="Lenovo - WIP"
+          <HomeCard
+            md="6"
+            link="/lenovo"
+            headline="Lenovo"
             text="Visualizing page traffic and over $807 million in revenue for the WorldWide eCommerce team."
           >
             <StaticImage
               src="../images/headers/Lenovo.png"
               alt="Lenovo box logo on a gradient background."
             />
-          </HomeCard> */}
+          </HomeCard>
         </Row>
       </div>
-      <Blog />
-
       <PageEnd
         headline="I try to be a good person first, and everything else second."
         text="About me"
