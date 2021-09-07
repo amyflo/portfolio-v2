@@ -75,13 +75,13 @@ For the user flow, we decided on different interactions in our app based on our 
 
 ### Wireframes
 
-We began with low-fidelity wireframes, trying out different versions of screens and outlining sections of our app using Whimsical. ![Blue wireframes based on new app concept design for Nutrikitchen.](../images/stamply/low.png "Visual explorations through low-fidelity wireframes.")
+We began with low-fidelity wireframes, trying out different versions of screens and outlining sections of our app using Whimsical. ![Wireframes based on new app concept design for Stamply.](../images/stamply/low.png "Visual explorations through low-fidelity wireframes.")
 
-We then transitioned to Adobe XD, where we referenced styles from Adobe XD UI Kits and applied preliminary styles from our design system to create medium fidelity wireframes. We relied greatly on Material Design principles to help us think through visual hierarchy on screen. ![Blue wireframes based on new app concept design for Nutrikitchen.](../images/stamply/medium.png "Visual explorations through medium-fidelity wireframes.")
+We then transitioned to Adobe XD, where we referenced styles from Adobe XD UI Kits and applied preliminary styles from our design system to create medium fidelity wireframes. We relied greatly on Material Design principles to help us think through visual hierarchy on screen. ![Wireframes based on new app concept design for Stamply.](../images/stamply/medium.png "Visual explorations through medium-fidelity wireframes.")
 
 From here, we went on to implement branding, microinteractions, animations, and color through our high-fidelity wireframes.
 
-![Blue wireframes based on new app concept design for Nutrikitchen.](../images/stamply/high.png "Visual explorations through high-fidelity wireframes.")
+![Wireframes based on new app concept design for Stamply.](../images/stamply/high.png "Visual explorations through high-fidelity wireframes.")
 
 ### Design System
 
