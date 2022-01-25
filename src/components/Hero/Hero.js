@@ -46,7 +46,7 @@ function Hero() {
       <hr />
 
       <h2 id="archive">Archive</h2>
-      <p>This is a work in progress! Links are still being updated.d</p>
+      <p>This is a work in progress! Links are still being updated.</p>
       <Row >
         <Col>
           <h3>2022</h3>
