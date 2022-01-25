@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Amy Lo",
+    lang: "English"
   },
   plugins: [
     {

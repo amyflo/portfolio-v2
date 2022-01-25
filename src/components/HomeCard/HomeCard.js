@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "gatsby";
 import Col from "react-bootstrap/Col";
+import "./homecard.css";
 
 export default function HomeCard(props) {
   return (
     <Col
-      className="home-container container"
-      style={{ margin: "30px auto" }}
+      className="home-card"
       xs={12}
       sm={12}
       md={props.md}
     >
       <Link to={props.link}>
-        <div className="card-container">
+        <div>
           {props.children}
           <h3
             className="cardcopy underline"

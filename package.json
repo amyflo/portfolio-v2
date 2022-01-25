@@ -8,11 +8,11 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "develop": "sudo gatsby develop",
+    "start": "sudo gatsby develop",
+    "build": "sudo gatsby build",
+    "serve": "sudo gatsby serve",
+    "clean": "sudo gatsby clean"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.0",
