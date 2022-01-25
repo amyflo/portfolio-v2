@@ -4,6 +4,7 @@ import "./hero.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container, Badge } from "react-bootstrap";
+import { Link } from "gatsby";
 
 function Hero() {
   return (
@@ -18,8 +19,14 @@ function Hero() {
             Amy has designed and developed for government agencies, startups,
             nonprofits, hackathons, community organizations, & many more. She studies affective
             neuroscience at Stanford (where she also leads a 60-person dorm)!
-            Incoming Summer Analyst at Accenture. <a href="https://drive.google.com/file/d/1L1p-WXAM82CJWqHLKQoCDfzZTYkeicsy/view?usp=sharing">View her resume here.</a>
+            Incoming Summer Analyst at Accenture. <br />
+
+            <a href="https://calendly.com/amyflo/checkin">Meet with me</a>&nbsp;&nbsp;| &nbsp;
+            <a href="https://drive.google.com/file/d/1L1p-WXAM82CJWqHLKQoCDfzZTYkeicsy/view?usp=sharing">Resume</a>&nbsp;&nbsp;| &nbsp;
+            <a href="http://twitter.com/_amyflo">Twitter</a>&nbsp;&nbsp;| &nbsp;
+            <a href="http://linkedin.com/amyflo">LinkedIn</a>
           </p>
+
         </Col>
       </Row>
       <Row>
@@ -64,11 +71,11 @@ function Hero() {
         <Col>
           <h3>2021</h3>
           <ol>
-            <li><a href="https://www.amyflo.com/stamply/">Stamply: a digital stamp card app on Android, 1st place Adobe Creative Jam winner.</a><Badge bg="primary">Case Study</Badge></li>
-            <li><a href="https://www.amyflo.com/nutrikitchen">Nutrikitchen: a smart kitchen and health app, finalist for Adobe Creative Jam.</a><Badge bg="primary">Case Study</Badge></li>
-            <li><a href="https://www.amyflo.com/onetoday/">Revamping Google OneToday in 24 hours, 3rd place at Wellesley Revive Designathon.</a><Badge bg="primary">Case Study</Badge></li>
-            <li><a href="https://www.amyflo.com/lenovo">Visualizing page traffic and revenue for Lenovo WorldWide eCommerce.</a><Badge bg="primary">Case Study</Badge></li>
-            <li><a href="https://www.amyflo.com/fed/">Building a design system at the Federal Reserve Board.</a><Badge bg="primary">Case Study</Badge></li>
+            <li><Link to="/stamply">Stamply: a digital stamp card app on Android, 1st place Adobe Creative Jam winner.</Link><Badge bg="primary">Case Study</Badge></li>
+            <li><Link to="/nutrikitchen">Nutrikitchen: a smart kitchen and health app, finalist for Adobe Creative Jam.</Link><Badge bg="primary">Case Study</Badge></li>
+            <li><Link to="/onetoday/">Revamping Google OneToday in 24 hours, 3rd place at Wellesley Revive Designathon.</Link><Badge bg="primary">Case Study</Badge></li>
+            <li><Link to="/lenovo">Visualizing page traffic and revenue for Lenovo WorldWide eCommerce.</Link><Badge bg="primary">Case Study</Badge></li>
+            <li><Link to="/fed/">Building a design system at the Federal Reserve Board.</Link><Badge bg="primary">Case Study</Badge></li>
             <li><a href="https://opendatacampus.com/">A guide to open data for college campuses.</a></li>
             <li><a href="https://datathon.stanford.edu/">Designing Stanford's first Open Data Hackathon.</a></li>
             <li><a href="https://techhistory.stanford.edu/">Researching a decade of Stanford tech culture.</a></li>
@@ -92,7 +99,7 @@ function Hero() {
           <h3>2020</h3>
           <ol>
             <li><a href="https://www.instagram.com/p/CBUe6e2JIIF/">Commissions For Change</a></li>
-            <li><a href="https://www.amyflo.com/censusacademy/">Census Academy: Designing an e-learning site for data education.</a><Badge bg="primary">Case Study</Badge></li >
+            <li><Link to="/censusacademy/">Census Academy: Designing an e-learning site for data education.</Link><Badge bg="primary">Case Study</Badge></li >
             <li><a href="https://sites.google.com/stanford.edu/standwithking">Stand with King: Fundraising for the King Institute.</a></li >
             <li><a href="https://www.instagram.com/outsideourbubble.whs/?hl=en">Outside Our Bubble: Discussions around racism for high school students.</a></li >
             <li><a href="http://angle.global">Designing for a startup to teach English through spelling bees.</a></li>

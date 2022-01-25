@@ -9,11 +9,9 @@ export default function Layout({ children }) {
   return (
     <div>
       <Navigation />
-      <Container className="bodyContainer">
         <Fade>
           {children}
         </Fade>
-      </Container>
       <Footer />
     </div>
   );
