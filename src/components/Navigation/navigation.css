@@ -1,16 +1,12 @@
-.navbar,
-.nav {
-  z-index: 1;
-  margin: auto;
-  padding: 0px 10px;
-  background-color: black;
+.navbar {
+    color: black;
+    padding-bottom: 30px;
 }
 
-.container {
-  max-width: 1000px;
-  padding: 0px 10px;
+.underline:hover{
+    color: var(--SecondaryColor);
 }
-
+/* 
 nav h4 {
   color: white;
   display: inline;
@@ -51,4 +47,4 @@ nav h4:hover{
     right: auto;
     width: 100%;
   }
-}
+} */

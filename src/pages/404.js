@@ -27,12 +27,12 @@ const NotFoundPage = () => {
             The page you're looking for does not exist. Or it does.. if you were
             looking for a gif of a cute cat reaching for a high five. <strong>(High five, little guy!)</strong>
           </p>
-          <p>
+          {/* <p>
             While we're here, did I mention that I'm always looking for new
             opportunities? In fact, I happen to have a rather fancy piece of
             paper called a <a href="/">resume</a> that you might want to check
             out. Or you can <Link to="/about">learn more about me here!</Link>
-          </p>
+          </p> */}
           <Link to="/">Take me back home!</Link>
         </Col>
       </Row>

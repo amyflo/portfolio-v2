@@ -6,28 +6,37 @@ import "./navigation.css";
 
 export default function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark">
+    <Navbar collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <h4>Amy Lo</h4>
+          <h4 className="underline">Amy Lo</h4>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="/">
-              <p className="underline">Home</p>
+              <h6 className="underline">Home</h6>
             </Nav.Link>
-            <Nav.Link href="/about">
-              <p className="underline">About</p>
+            <Nav.Link href="/#archive">
+              <h6 className="underline">Archive</h6>
+            </Nav.Link>
+            <Nav.Link href="/#archive">
+              <h6 className="underline">Fails</h6>
+            </Nav.Link>
+            {/* <Nav.Link href="/about">
+              <h6 className="underline">About</h6>
             </Nav.Link>
             <a
               className="nav-link"
               href="https://drive.google.com/file/d/1qDcGEYL3gGRbkDgwN4Irhz7-vaU5Ojyy/view?usp=sharing"
             >
-              <p className="underline">Resume</p>
+              <h6 className="underline">Resume</h6>
+            </a> */}
+            <a className="nav-link" href="https://drive.google.com/file/d/1L1p-WXAM82CJWqHLKQoCDfzZTYkeicsy/view?usp=sharing">
+              <h6 className="underline">Resume</h6>
             </a>
             <a className="nav-link" href="https://www.linkedin.com/in/amyflo/">
-              <p className="underline">LinkedIn</p>
+              <h6 className="underline">LinkedIn</h6>
             </a>
           </Nav>
         </Navbar.Collapse>
