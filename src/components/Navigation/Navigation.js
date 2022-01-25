@@ -20,7 +20,7 @@ export default function Navigation() {
             <Nav.Link href="/#archive">
               <h6 className="underline">Archive</h6>
             </Nav.Link>
-            <Nav.Link href="/#archive">
+            <Nav.Link href="/fails">
               <h6 className="underline">Fails</h6>
             </Nav.Link>
             {/* <Nav.Link href="/about">
