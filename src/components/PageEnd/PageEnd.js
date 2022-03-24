@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./PageEnd.css"
+import "./PageEnd.css";
 
 export default function PageEnd(props) {
   return (

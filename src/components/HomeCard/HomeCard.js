@@ -1,30 +1,26 @@
 import React from "react";
 import { Link } from "gatsby";
 import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import { Badge } from "react-bootstrap";
 import "./homecard.css";
 
 export default function HomeCard(props) {
   return (
-    <Col
-      className="home-card"
-      xs={12}
-      sm={12}
-      md={props.md}
-    >
+    <Col className="home-card" xs={12} md={6}>
       <Link to={props.link}>
-        <div>
+        <div className="header-image">
           {props.children}
-          <h3
-            className="cardcopy underline"
-            style={{ padding: "10px 0px", margin: "0px" }}
-          >
-            {props.headline}
-          </h3>
         </div>
       </Link>
-      <p className="cardcopy" style={{ padding: "0px", margin: "0px" }}>
-        {props.text}
-      </p>
+      <div>
+        <h2 className="header-headline">
+          <Link to={props.link}>{props.headline}</Link>&nbsp;&nbsp;&nbsp;
+          <Badge className="small-badge" variant="light">{props.badge1}</Badge>&nbsp;
+          <Badge className="small-badge" variant="light">{props.badge2}</Badge>
+        </h2>
+      </div>
+      <p className="header-text">{props.text}</p>
     </Col>
   );
 }

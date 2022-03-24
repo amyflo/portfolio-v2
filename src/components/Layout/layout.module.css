@@ -82,7 +82,7 @@ hr{
   margin: 30px 0px;
   border-color: var(--mainColor);
 }
-
+/* 
 ::selection {
   color: white;
   background: var(--mainColor);
@@ -91,4 +91,4 @@ hr{
 ::-moz-selection {
   color: white;
   background: var(--mainColor);
-}
+} */

@@ -1,7 +1,29 @@
-/* .home-card{
-    padding: 30px;
+.small-badge {
+    font-size: 12px;
+    background-color: #ebf0ff !important;
+    text-transform: uppercase;
+    font-family: aktiv-grotesk, sans-serif;
+    padding: 6px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px;
 }
 
-.card-container{
-    margin: 20px;
-} */
+.header-image {
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+
+.header-image:hover {
+    transform: scale(1.01);
+    transition: all 0.5s ease;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(166, 173, 201, 0.2);
+}
+
+.header-headline {
+    margin-top: 30px;
+}
+
+.header-text {
+    font-size: 18px;
+}
