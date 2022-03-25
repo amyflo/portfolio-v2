@@ -6,8 +6,8 @@ import { Row, Col } from "react-bootstrap";
 import { Link } from "gatsby";
 import { Badge } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
-import Flickity from "react-flickity-component";
-import "../flickity.css";
+// import Flickity from "react-flickity-component";
+// import "../flickity.css";
 
 
 export default function About() {
@@ -44,7 +44,7 @@ export default function About() {
         </Row>
         <hr />
         <h2>Pieces of me</h2>
-        <Flickity
+        {/* <Flickity
           options={{ "autoPlay": 1500,
           "pauseAutoPlayOnHover": false, "percentPosition": false, "wrapAround": true }}>
           <StaticImage width="200px" className="faves" src="../images/about/faves/1.jpg" />
@@ -55,7 +55,7 @@ export default function About() {
           <StaticImage width="200px" className="faves" src="../images/about/faves/6.JPG" />
           <StaticImage width="200px" className="faves" src="../images/about/faves/7.JPG" />
           <StaticImage width="200px" className="faves" src="../images/about/faves/8.JPG" />
-        </Flickity>
+        </Flickity> */}
         <br/>
         <Row>
           <h2>

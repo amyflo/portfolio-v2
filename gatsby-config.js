@@ -5,6 +5,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: "Amy Lo",
+        short_name: "Amy Lo",
+        start_url: "/",
+        icon: 'src/components/Hero/avatar/kissy.png',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/markdown-pages`,
