@@ -17,24 +17,15 @@ export default function Navigation() {
             <Nav.Link href="/">
               <h6 className="underline">Home</h6>
             </Nav.Link>
-            <Nav.Link href="/#archive">
-              <h6 className="underline">Archive</h6>
-            </Nav.Link>
             <Nav.Link href="/fails">
               <h6 className="underline">Fails</h6>
             </Nav.Link>
-            {/* <Nav.Link href="/about">
+            <Nav.Link href="/resume">
+              <h6 className="underline">Resume</h6>
+            </Nav.Link>
+            <Nav.Link href="/about">
               <h6 className="underline">About</h6>
             </Nav.Link>
-            <a
-              className="nav-link"
-              href="https://drive.google.com/file/d/1qDcGEYL3gGRbkDgwN4Irhz7-vaU5Ojyy/view?usp=sharing"
-            >
-              <h6 className="underline">Resume</h6>
-            </a> */}
-            <a className="nav-link" href="https://drive.google.com/file/d/1L1p-WXAM82CJWqHLKQoCDfzZTYkeicsy/view?usp=sharing">
-              <h6 className="underline">Resume</h6>
-            </a>
             <a className="nav-link" href="https://www.linkedin.com/in/amyflo/">
               <h6 className="underline">LinkedIn</h6>
             </a>

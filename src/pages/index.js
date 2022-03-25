@@ -3,7 +3,7 @@ import Layout from "../components/Layout/Layout";
 import Hero from "../components/Hero/Hero";
 import Row from "react-bootstrap/Row"
 import { StaticImage } from "gatsby-plugin-image";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import HomeCard from "../components/HomeCard/HomeCard";
 
 
@@ -16,10 +16,17 @@ export default function Home() {
         Incoming Summer Analyst at Accenture Interactive."/>
       <Container>
         <Row>
-          
+          <HomeCard link="/bunnyworld" headline="BunnyWorld"
+            text="An Android app for creating, editing, and playing custom games."
+            badge1="Java"
+            badge2="App Development"
+          >
+            <StaticImage className="header-image"
+              src="../images/headers/bunnyworld.png" alt="A dinosaur" />
+          </HomeCard>
           <HomeCard link="/stamply" headline="Stamply"
             text="A digital rewards app for shopping small businesses. 
-            1st place winner, Adobe Creative Jam."
+            1st place, Adobe Creative Jam."
             badge1="UX Design"
             badge2="Hackathon"
           >
@@ -34,6 +41,14 @@ export default function Home() {
           >
             <StaticImage className="header-image"
               src="../images/headers/nutrikitchen.png" alt="A dinosaur" />
+          </HomeCard>
+          <HomeCard link="/onetoday" headline="Google One Today"
+            text="Redesigning social donations for a failed Google product. 3rd place, Wellesley REVIVE Designathon."
+            badge1="UX Design"
+            badge2="Hackathon"
+          >
+            <StaticImage className="header-image"
+              src="../images/headers/google.png" alt="A dinosaur" />
           </HomeCard>
         </Row>
       </Container>

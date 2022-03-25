@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout/Layout";
 import { Container } from "react-bootstrap";
 
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -26,7 +27,6 @@ export default function Template({
             Updated {frontmatter.date} – {frontmatter.length} min read
           </p>
           <div
-            style={{ margin: "auto auto 100px auto" }}
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
@@ -35,7 +35,6 @@ export default function Template({
           text="Go back home"
           href="/#"
         /> */}
-
         </Fade>
       </Container>
     </Layout>

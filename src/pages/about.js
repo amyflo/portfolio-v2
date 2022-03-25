@@ -1,69 +1,85 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
 import Fade from "react-reveal/Fade";
-import Blog from "../components/Blog/Blog";
 import Container from "react-bootstrap/Container";
+import { Row, Col } from "react-bootstrap";
+import { Link } from "gatsby";
+import { Badge } from "react-bootstrap";
 import { StaticImage } from "gatsby-plugin-image";
+import Flickity from "react-flickity-component";
+import "../flickity.css";
+
 
 export default function About() {
   return (
     <Layout>
       <title>About Amy Lo</title>
-      <Fade bottom>
-        <div
-          style={{ background: "#3E85FF", padding: "40px 0px", color: "white" }}
-        >
-          <Container>
-            <h1 style={{ color: "white" }}>
-              I try to be a good person first, and everything else second.
-            </h1>
-            <StaticImage src="../images/about/me.jpg" />
-            <p>
-              What’s made me a better designer and developer has been investing
-              into my family, friendships, community, and world. My compass in
-              life is my empathy. I’ve followed it to Stanford University, where
-              I study Computer Science and Psychology hoping to make things that
-              leave this world better than when I entered it.{" "}
-            </p>
-          </Container>
-        </div>
-        <div
-          style={{ background: "black", padding: "40px 0px", color: "white" }}
-        >
-          <Container>
-            <h1 style={{ color: "white" }}>
-              I am a designer who learned how to code because I was curious to
-              know what happens after I hand off a design to a developer.
-            </h1>
-            <p>
-              During the pandemic, I taught myself HTML, CSS, JavaScript, React,
-              and currently am learning Swift / SwiftUI. I wanted to figure out
-              how the pixels I pushed translated into real tools and webpages.
-              Learning programming languages has made me understand the
-              challenges for developers to build UI. Thus, I’m passionate about
-              creating design systems, productivity solutions, and flexible,
-              fast frontend.
-            </p>
-          </Container>
-        </div>
+      <Container>
+        <Row>
 
-        <div style={{ background: "#FFB444", padding: "40px 0px" }}>
-          <Container>
-            <h1>I want to be measured by the vibrancy of my life.</h1>
-            <p>
-              What motivates me has always been my family and grandparents who
-              inspire me to make the most out of my life, reminding me to stay
-              upbeat despite failures and setbacks. I want to be measured not by
-              my professional achievements but by the vibrancy of my life. After
-              a gap year working from home, I cultivated my love for frequent
-              trips to my grandparents, cooking cultural recipes, blending
-              frozen fruit smoothies, gardening, journaling and taking care of
-              my pet fish, George.
-            </p>
-          </Container>
-        </div>
-      </Fade>
-      <Blog />
-    </Layout>
+          <Col md="4">
+            <StaticImage style={{ "border-radius": "15px" }} src="../images/about/me.jpeg" />
+          </Col>
+          <Col md="8">
+            <Fade bottom>
+              <h1>Hi, I'm Amy!</h1>
+              <p>
+                I'm at Stanford University studying Psychology and Computer Science, set to graduate in June 2024.
+                I specialize in neuroscience and human-computer interaction.
+              </p>
+              <p>
+                Professionally, I'm a UX designer and engineer with experience in designing for startups and government experience.
+                Last summer, I interned at the Federal Reserve Board of Governors, designing and developing their internal design system.
+              </p>
+              <p>
+                Currently, I am a TA for CS106A (Python) and CS106B (C++), where I teach a weekly section of 10-15 students introductory computer science.
+                I'm also a Resident Assistant for a 60-person dorm at Stanford, and research in the Stanford Culture and Emotion Lab and the Stanford Memory Lab,
+                where I am working on a VR project studying memory.
+              </p>
+              <p>
+                In my free time, I love picnics, hosting themed parties, and making bad jokes.
+              </p>
+            </Fade>
+          </Col>
+        </Row>
+        <hr />
+        <h2>Pieces of me</h2>
+        <Flickity
+          options={{ "autoPlay": 1500,
+          "pauseAutoPlayOnHover": false, "percentPosition": false, "wrapAround": true }}>
+          <StaticImage width="200px" className="faves" src="../images/about/faves/1.jpg" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/2.jpg" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/3.jpg" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/4.JPG" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/5.JPG" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/6.JPG" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/7.JPG" />
+          <StaticImage width="200px" className="faves" src="../images/about/faves/8.JPG" />
+        </Flickity>
+        <br/>
+        <Row>
+          <h2>
+            Recently...
+          </h2>
+          <ul>
+            <li>
+              The Census Survey Explorer, a project I built in Fall 2020, finally launched on the <a href="census.gov/data/data-tools/survey-explorer/">U.S. Census Bureau's official site!</a> <Badge bg="light">March 2022</Badge>
+            </li>
+            <li>
+              My teammates and I built an Android app for CS108. BunnyWorld is a game editor and game play app. <Link to="/bunnyworld">Check out our work here.</Link> <Badge bg="light">March 2022</Badge>
+            </li>
+            <li>
+              I was selected to study abroad at Oxford University in the fall of 2022 in experimental psychology! <Badge bg="light">February 2022</Badge>
+            </li>
+            <li>
+              I'm joining Accenture as a Summer Analyst. I'm excited to work for a company that will give me the opportunity to explore. <Badge bg="light">November 2021</Badge>
+            </li>
+            <li>
+              I became a CS106 section leader (TA)! In September, I'll start to teach introductory Python and C++ for Stanford's largest introductory computer science course at Stanford. <Badge bg="light">August 2021</Badge>
+            </li>
+          </ul>
+        </Row>
+      </Container>
+    </Layout >
   );
 }

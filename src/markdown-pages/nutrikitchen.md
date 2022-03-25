@@ -9,8 +9,6 @@ length: "5"
 <img alt="Mockup of three phone screens from Nutrikitchen app." src="../images/headers/nutrikitchen.png"/>
 <br />
 
----
-
 ## Introduction
 
 Designed for people with limited mobility, dietary restrictions, and specialized medications, Nutrikitchen is a hub for managing your wellness and kitchen without ever leaving the app. In this concept app, I participated in a team of two with my partner, Tracy Do. Nutrikitchen was a finalist for Adobe College + Ring Creative Jam, scoring in the top 10 out of 130 teams!

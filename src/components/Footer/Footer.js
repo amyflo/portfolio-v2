@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { Link } from "gatsby";
 import "./footer.css";
 
 export default function Footer() {
@@ -10,12 +11,12 @@ export default function Footer() {
       <Container>
         <hr />
         <Row>
-          <Col lg className="footer-about">
+          <Col lg>
             <h1>Get in touch</h1>            
             <p>
-              Our time together doesn't have to end so soon! I love making new friends: let's talk! <br/>
               <a href="https://calendly.com/amyflo/checkin">Meet with me</a>&nbsp;&nbsp;| &nbsp;
-              <a href="https://drive.google.com/file/d/1L1p-WXAM82CJWqHLKQoCDfzZTYkeicsy/view?usp=sharing">Resume</a> &nbsp;&nbsp;| &nbsp;
+              
+              <Link to="/resume">Resume</Link>&nbsp;&nbsp;| &nbsp;
               <a href="http://twitter.com/_amyflo">Twitter</a>&nbsp;&nbsp;| &nbsp;
               <a href="http://linkedin.com/amyflo">LinkedIn</a>&nbsp;&nbsp;| &nbsp;
               <a

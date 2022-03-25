@@ -29,6 +29,10 @@ h1{
   color: var(--mainColor);
 }
 
+h3, h5{
+  color: var(--mainColor);
+}
+
 .center{
   text-align: center;
 }
@@ -56,7 +60,6 @@ blockquote p {
   font-style: normal;
   font-size: 1.5rem;
   font-family: aw-conqueror-didot, serif;
-  color: var(--mainColor);
 }
 
 figcaption p {
@@ -92,3 +95,33 @@ hr{
   color: white;
   background: var(--mainColor);
 } */
+
+
+.responsive-iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.override-image{
+  padding: 0px;
+}
+
+.preview{
+  border: 1px solid #d3d3d3;
+}
+
+.faves{
+  height: 200px;
+}
