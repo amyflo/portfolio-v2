@@ -62,7 +62,7 @@ blockquote p {
   font-family: aw-conqueror-didot, serif;
 }
 
-figcaption p {
+figcaption {
   font-family: aw-conqueror-didot, serif;
   font-size: 1.15rem;
   margin: 10px auto;

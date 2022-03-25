@@ -19,7 +19,7 @@ export default function Home() {
           <HomeCard link="/bunnyworld" headline="BunnyWorld"
             text="An Android app for creating, editing, and playing custom games."
             badge1="Java"
-            badge2="App Development"
+            badge2="Android App"
           >
             <StaticImage className="header-image"
               src="../images/headers/bunnyworld.png" alt="A dinosaur" />

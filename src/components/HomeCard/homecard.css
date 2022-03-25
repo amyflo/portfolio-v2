@@ -14,6 +14,7 @@
 }
 
 .header-image:hover {
+    border-radius: 15px;
     transform: scale(1.01);
     transition: all 0.5s ease;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
