@@ -12,9 +12,14 @@ export default function Home() {
     <Layout>
       <title>Amy Lo</title>
       <Hero intro="I study neuroscience and human-computer interaction at Stanford. 
-        Passionate about ethical tech, system design, and human-centric experiences. 
-        Incoming Summer Analyst at Accenture Interactive."/>
+        I'm passionate about ethical tech, system design, and human-centric experiences. 
+        I love making things, especially bad jokes." job="Incoming Summer Analyst at Accenture Interactive."/>
+      <br />
+
+
       <Container>
+        <hr />
+        <h2>Featured Projects</h2>
         <Row>
           <HomeCard link="/bunnyworld" headline="BunnyWorld"
             text="An Android app for creating, editing, and playing custom games."
