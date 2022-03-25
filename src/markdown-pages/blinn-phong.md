@@ -42,4 +42,4 @@ While I can't disclose the details of my project implementation due to Stanford'
 
 ### Demo
 
-<img class="preview" style="width: inherit" alt="otter dancing with a fish" src="https://lh3.googleusercontent.com/pw/AM-JKLXHmt_RmOJCYbmW58snzA5CFHotOZDFo2SvwSXDUviMfnwgAAlbUNFA2iCFt1vF4Q4ON6iDDF4KKLoAIssf5g2y9J9N3u8gU7hqvASleEZbl0BGSfIusqgwMXmrj2CaIGaJ6e4s_1MRS0Y6HO-_5O_N=w1440-h810-no">
+<img style="width: 100%" alt="otter dancing with a fish" src="https://lh3.googleusercontent.com/pw/AM-JKLXHmt_RmOJCYbmW58snzA5CFHotOZDFo2SvwSXDUviMfnwgAAlbUNFA2iCFt1vF4Q4ON6iDDF4KKLoAIssf5g2y9J9N3u8gU7hqvASleEZbl0BGSfIusqgwMXmrj2CaIGaJ6e4s_1MRS0Y6HO-_5O_N=w1440-h810-no">
