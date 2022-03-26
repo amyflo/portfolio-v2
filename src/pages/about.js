@@ -43,26 +43,29 @@ export default function About() {
         <hr />
         <br />
         <Row>
-          <h2>
-            Recently...
-          </h2>
-          <ul>
-            <li>
-              The Census Survey Explorer, a project I built in Fall 2020, finally launched on the <a href="census.gov/data/data-tools/survey-explorer/">U.S. Census Bureau's official site!</a> <Badge bg="light">March 2022</Badge>
-            </li>
-            <li>
-              My teammates and I built an Android app for CS108. BunnyWorld is a game editor and game play app. <Link to="/bunnyworld">Check out our work here.</Link> <Badge bg="light">March 2022</Badge>
-            </li>
-            <li>
-              I was selected to study abroad at Oxford University in the fall of 2022 in experimental psychology! <Badge bg="light">February 2022</Badge>
-            </li>
-            <li>
-              I'm joining Accenture as a Summer Analyst. I'm excited to work for a company that will give me the opportunity to explore. <Badge bg="light">November 2021</Badge>
-            </li>
-            <li>
-              I became a CS106 section leader (TA)! In September, I'll start to teach introductory Python and C++ for Stanford's largest introductory computer science course at Stanford. <Badge bg="light">August 2021</Badge>
-            </li>
-          </ul>
+          <Col>
+
+            <h2>
+              Recently...
+            </h2>
+            <ul>
+              <li>
+                The Census Survey Explorer, a project I built in Fall 2020, finally launched on the <a href="census.gov/data/data-tools/survey-explorer/">U.S. Census Bureau's official site!</a> <Badge bg="light">March 2022</Badge>
+              </li>
+              <li>
+                My teammates and I built an Android app for CS108. BunnyWorld is a game editor and game play app. <Link to="/bunnyworld">Check out our work here.</Link> <Badge bg="light">March 2022</Badge>
+              </li>
+              <li>
+                I was selected to study abroad at Oxford University in the fall of 2022 in experimental psychology! <Badge bg="light">February 2022</Badge>
+              </li>
+              <li>
+                I'm joining Accenture as a Summer Analyst. I'm excited to work for a company that will give me the opportunity to explore. <Badge bg="light">November 2021</Badge>
+              </li>
+              <li>
+                I became a CS106 section leader (TA)! In September, I'll start to teach introductory Python and C++ for Stanford's largest introductory computer science course at Stanford. <Badge bg="light">August 2021</Badge>
+              </li>
+            </ul>
+          </Col>
         </Row>
       </Container>
     </Layout >

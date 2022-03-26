@@ -2,3 +2,19 @@ footer{
     margin-bottom: 50px;
     position: relative;
 }
+
+.footer-link{
+    border-bottom: none;
+    margin: 0px 5px;
+}
+
+.footer-link:hover path{
+    fill: var(--mainColor);
+}
+
+@media screen and (min-width: 992px) {
+    .footer-right{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

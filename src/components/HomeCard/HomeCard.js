@@ -6,7 +6,7 @@ import "./homecard.css";
 
 export default function HomeCard(props) {
   return (
-    <Col className="home-card" xs={12} md={6}>
+    <Col className="home-card" md={6}>
       <Link to={props.link}>
         <div className="header-image">
           {props.children}
