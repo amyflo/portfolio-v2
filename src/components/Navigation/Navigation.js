@@ -14,14 +14,6 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-<<<<<<< Updated upstream
-            <Nav.Link href="/">
-              <h6 className="underline">Home</h6>
-=======
-            <Nav.Link href="/design">
-              <h6 className="underline">Design</h6>
->>>>>>> Stashed changes
-            </Nav.Link>
             <Nav.Link href="/design">
               <h6 className="underline">Design</h6>
             </Nav.Link>
