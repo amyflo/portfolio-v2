@@ -1,6 +1,6 @@
 ---
 slug: "/blinn-phong"
-date: "March 24, 2021"
+date: "March 24, 2022"
 title: "Blinn Phong Recursive Ray Tracer"
 description: "A simple recursive ray tracer using the Blinn-Phong model."
 length: "5"

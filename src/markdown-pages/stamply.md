@@ -1,6 +1,6 @@
 ---
 slug: "/stamply"
-date: "March 24, 2021"
+date: "March 24, 2022"
 title: "Stamply"
 description: "A loyalty rewards app for shopping small businesses on Android. 1st place winner, Adobe Creative Jam x Instagram."
 length: "7"

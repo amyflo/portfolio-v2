@@ -27,6 +27,14 @@ export default function Dev() {
                         <StaticImage className="header-image"
                             src="../images/headers/surveyexplorer.png" alt="A dinosaur" />
                     </HomeCard>
+                    <HomeCard link="/lenovo" headline="Lenovo"
+                        text="Visualizing page traffic and revenue for Lenovo WorldWide eCommerce."
+                        badge1="Python"
+                        badge2="Tableau"
+                    >
+                        <StaticImage className="header-image"
+                            src="../images/headers/lenovo.png" alt="A dinosaur" />
+                    </HomeCard>
                     <HomeCard link="/ray-traced-image" headline="Ray Traced Image"
                         text="A Mulan-inspired ray-traced image using Blender Cycles."
                         badge1="Blender"
@@ -58,13 +66,6 @@ export default function Dev() {
                         badge2="CSS"
                     >
                     </HomeCard>
-
-                    
-                    <HomeCard link="/bunnyworld" headline="Lenovo Content Audit"
-                        text="Visualizing page traffic and revenue for Lenovo WorldWide eCommerce."
-                        badge1="Python"
-                        badge2="Tableau"
-                    ></HomeCard>
                     <HomeCard link="/bunnyworld" headline="Tetris"
                         text="An Android app that plays and auto-solves Tetris."
                         badge1="Java"

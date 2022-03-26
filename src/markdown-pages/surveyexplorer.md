@@ -1,6 +1,6 @@
 ---
 slug: "/surveyexplorer"
-date: "March 25, 2021"
+date: "March 25, 2022"
 title: "Census Survey Explorer"
 description: "A search and filter tool to explore 130+ Census surveys."
 length: "5"

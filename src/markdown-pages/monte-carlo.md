@@ -1,6 +1,6 @@
 ---
 slug: "/monte-carlo"
-date: "March 24, 2021"
+date: "March 24, 2022"
 title: "Monte Carlo Recursive Ray Tracer"
 description: "A Monte-Carlo recursive ray tracer of the Classic Cornell box."
 length: "5"

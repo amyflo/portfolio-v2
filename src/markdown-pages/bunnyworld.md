@@ -1,6 +1,6 @@
 ---
 slug: "/bunnyworld"
-date: "March 24, 2021"
+date: "March 24, 2022"
 title: "BunnyWorld"
 description: "An Android app for creating, editing, and playing custom games."
 length: "5"

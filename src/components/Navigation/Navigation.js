@@ -17,6 +17,9 @@ export default function Navigation() {
             <Nav.Link href="/">
               <h6 className="underline">Home</h6>
             </Nav.Link>
+            <Nav.Link href="/design">
+              <h6 className="underline">Design</h6>
+            </Nav.Link>
             <Nav.Link href="/dev">
               <h6 className="underline">Code</h6>
             </Nav.Link>
