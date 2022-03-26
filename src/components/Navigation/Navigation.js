@@ -14,8 +14,13 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
+<<<<<<< Updated upstream
             <Nav.Link href="/">
               <h6 className="underline">Home</h6>
+=======
+            <Nav.Link href="/design">
+              <h6 className="underline">Design</h6>
+>>>>>>> Stashed changes
             </Nav.Link>
             <Nav.Link href="/dev">
               <h6 className="underline">Code</h6>
@@ -26,9 +31,6 @@ export default function Navigation() {
             <Nav.Link href="/resume">
               <h6 className="underline">Resume</h6>
             </Nav.Link>
-            <a className="nav-link" href="https://www.linkedin.com/in/amyflo/">
-              <h6 className="underline">LinkedIn</h6>
-            </a>
             <Nav.Link href="/about">
               <h6 className="underline">About</h6>
             </Nav.Link>
