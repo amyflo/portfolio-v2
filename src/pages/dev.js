@@ -33,7 +33,7 @@ export default function Dev() {
                         badge2="Tableau"
                     >
                         <StaticImage className="header-image"
-                            src="../images/headers/lenovo.png" alt="A dinosaur" />
+                            src="../images/headers/lenovo-header.png" alt="A dinosaur" />
                     </HomeCard>
                     <HomeCard link="/ray-traced-image" headline="Ray Traced Image"
                         text="A Mulan-inspired ray-traced image using Blender Cycles."

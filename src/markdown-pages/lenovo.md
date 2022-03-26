@@ -6,7 +6,7 @@ description: "Visualizing page traffic and revenue for Lenovo WorldWide eCommerc
 length: "4"
 ---
 
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/lenovo.png"/>
+<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/lenovo-header.png"/>
 <br />
 
 
