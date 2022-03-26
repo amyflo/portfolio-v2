@@ -9,6 +9,7 @@ export default function Dev() {
     return (
         <Layout>
             <Container>
+                <h1>Coding Projects</h1>
                 <Row>
                     <HomeCard link="/bunnyworld" headline="BunnyWorld"
                         text="An Android app for creating, editing, and playing custom games."
@@ -17,6 +18,14 @@ export default function Dev() {
                     >
                         <StaticImage className="header-image"
                             src="../images/headers/bunnyworld.png" alt="A dinosaur" />
+                    </HomeCard>
+                    <HomeCard link="/surveyexplorer" headline="Census Survey Explorer"
+                        text="A search and filter tool to explore 130+ Census surveys."
+                        badge1="Javascript"
+                        badge2="API"
+                    >
+                        <StaticImage className="header-image"
+                            src="../images/headers/surveyexplorer.png" alt="A dinosaur" />
                     </HomeCard>
                     <HomeCard link="/ray-traced-image" headline="Ray Traced Image"
                         text="A Mulan-inspired ray-traced image using Blender Cycles."
@@ -42,6 +51,7 @@ export default function Dev() {
                         <StaticImage className="header-image"
                             src="../images/headers/simple.png" alt="A dinosaur" />
                     </HomeCard>
+
                     {/* <HomeCard link="/bunnyworld" headline="Open Data Campus"
                         text="A guide to open data for college campuses."
                         badge1="HTML"
@@ -49,12 +59,7 @@ export default function Dev() {
                     >
                     </HomeCard>
 
-                    <HomeCard link="/bunnyworld" headline="Census Survey Explorer"
-                        text="A simple recursive ray tracer using the Blinn-Phong model."
-                        badge1="Javascript"
-                        badge2="API"
-                    >
-                    </HomeCard>
+                    
                     <HomeCard link="/bunnyworld" headline="Lenovo Content Audit"
                         text="Visualizing page traffic and revenue for Lenovo WorldWide eCommerce."
                         badge1="Python"
