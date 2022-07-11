@@ -13,7 +13,7 @@ export default function Home() {
       <title>Amy Lo</title>
       <Hero intro="I study neuroscience and human-computer interaction at Stanford. 
         I'm passionate about ethical tech, system design, and human-centric experiences. 
-        I love making things, especially bad jokes." job="Incoming Summer Analyst at Accenture Interactive."/>
+        I love making things, especially bad jokes." job="Summer Analyst at Accenture Song."/>
       <br />
 
 
