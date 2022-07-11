@@ -8,8 +8,8 @@ export default function Resume() {
             <Container>
                 <h1>Resume</h1>
                 <div class="embed-responsive embed-responsive-1by1">
-                    <iframe class="embed-responsive-item"
-                        src="https://drive.google.com/file/d/1cX6E0ZV1WKMHqHyW1_XiXxdJRbhQvEKl/preview"
+                    <iframe class="embed-responsive-item" title="Resume"
+                        src="https://drive.google.com/file/d/1gd2ReAsK08T-LJYuzyq6NZ4qYhV4EEkU/preview"
                         allow="autoplay"></iframe>
                 </div>
             </Container>

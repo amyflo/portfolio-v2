@@ -21,6 +21,14 @@ export default function Home() {
         <hr />
         <h2>Featured Projects</h2>
         <Row>
+        <HomeCard link="/spacemail" headline="SpaceMail"
+            text="A narrative game about delivering packages in space."
+            badge1="Unity"
+            badge2="Digital game"
+          >
+            <StaticImage className="header-image"
+              src="../images/headers/spacemail.png" alt="A dinosaur" />
+          </HomeCard>
           <HomeCard link="/bunnyworld" headline="BunnyWorld"
             text="An Android app for creating, editing, and playing custom games."
             badge1="Java"
