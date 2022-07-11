@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="amyflo.com">
-    <img alt="Amy Lo" src="https://www.amyflo.com/static/7b08548b15147274da731eca7937dd11/2e34e/profile.webp" width="60" />
-  </a>
-</p>
 <h1 align="center">
   Personal Website
 </h1>
