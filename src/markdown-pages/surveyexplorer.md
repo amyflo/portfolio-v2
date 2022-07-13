@@ -4,10 +4,8 @@ date: "March 25, 2021"
 title: "Census Survey Explorer"
 description: "A search and filter tool to explore 130+ Census surveys."
 length: "5"
+featuredImage: "../images/headers/surveyexplorer.png"
 ---
-
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/surveyexplorer.png"/>
-<br />
 
 ## At-a-glance
 
@@ -45,7 +43,7 @@ Previously, when exploring surveys from the U.S. Census Bureau, one of your only
 
 ## Project Overview
 
-I started at the U.S. Census Bureau as a Civic Digital Fellow in June 2020 through Coding it Forward. After my 10-week fellowship, I stayed to continue my work when my supervisor, Mary, came to me with a problem. She wanted a way to display all the surveys we had available for her instructional design course for Census data users, but found it overwhelming to send them a link to 130 surveys without any way to explore. 
+I started at the U.S. Census Bureau as a Civic Digital Fellow in June 2020 through Coding it Forward. After my 10-week fellowship, I stayed to continue my work when my supervisor, Mary, came to me with a problem. She wanted a way to display all the surveys we had available for her instructional design course for Census data users, but found it overwhelming to send them a link to 130 surveys without any way to explore.
 
 Originally designed as a data visualization project, the Census Survey Explorer has since evolved into a way to discover U.S. Census Bureau surveys or censuses by filtering and searching by geography, frequency, topics, and subtopics. I worked closely with Mary and Eric to create the content for the tool and worked with Logan on the backend and API usage. 
 

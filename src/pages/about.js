@@ -19,7 +19,7 @@ export default function About() {
             <StaticImage style={{ "border-radius": "15px" }} src="../images/about/me.jpeg" />
           </Col>
           <Col md="8">
-            <Fade bottom>
+            <Fade top>
               <h1>Hi, I'm Amy!</h1>
               <p>
                 I'm at Stanford University studying Psychology and Computer Science, set to graduate in June 2024.

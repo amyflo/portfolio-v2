@@ -3,43 +3,35 @@ import { graphql } from "gatsby";
 import Fade from "react-reveal/Fade";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "../components/Layout/Layout";
-import { Container } from "react-bootstrap";
+import Img from "gatsby-image"
 
 
-export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
-}) {
+export default function Template({data}) {
+  let post = data.markdownRemark
+  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter} = markdownRemark;
   return (
     <Layout className="blog-post-container">
-      <Container>
         <Fade className="blog-post">
 
-          <title>{frontmatter.title} | Amy Lo</title>
+          <title>{frontmatter.title}</title>
           <h1>
             {frontmatter.title}
           </h1>
           <h2>
             {frontmatter.description}
           </h2>
-          <p>
+          <figcaption>
             Updated {frontmatter.date} – {frontmatter.length} min read
-          </p>
-          <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          {/* <PageEnd
-          headline="Congratulations - You've made it to the end!"
-          text="Go back home"
-          href="/#"
-        /> */}
+          </figcaption>
+          <Img fluid={featuredImgFluid} />
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </Fade>
-      </Container>
     </Layout>
   );
 }
+
 
 export const pageQuery = graphql`
   query ($id: String!) {
@@ -51,6 +43,13 @@ export const pageQuery = graphql`
         title
         length
         description
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

@@ -4,9 +4,8 @@ date: "September 7, 2021"
 title: "Federal Reserve Board"
 description: "Building a design system for the Monetary Affairs Team to create better financial tools."
 length: "2"
+featuredImage: "../images/headers/frb.png"
 ---
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/frb.png"/>
-<br />
 
 ## Introduction
 

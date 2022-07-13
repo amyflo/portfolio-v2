@@ -4,10 +4,7 @@ date: "May 17, 2021"
 title: "U.S. Census Bureau: Census Academy"
 description: "UX design and research for the U.S. Census Bureau's data courses – envisioning data education for the nation's largest provider of data."
 length: "10"
----
-
-![Mockup of Census Academy webpage with two screenshots of redesigned home page and course page](../images/headers/CensusAcademy.png)
-
+featuredImage: "../images/headers/CensusAcademy.png"
 ---
 
 ## Introduction

@@ -19,7 +19,7 @@ export default function Home() {
 
       <Container>
         <hr />
-        <h2>Featured Projects</h2>
+        <h2 style={{maxWidth: "none"}}>Featured Projects</h2>
         <Row>
         <HomeCard link="/spacemail" headline="SpaceMail"
             text="A narrative game about delivering packages in space."

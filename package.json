@@ -23,6 +23,7 @@
     "bootstrap": "^4.6.0",
     "dependencies": "^0.0.1",
     "gatsby": "^3.9.1",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^1.9.0",
     "gatsby-plugin-manifest": "^4.10.2",
     "gatsby-plugin-mdx": "^3.10.2",

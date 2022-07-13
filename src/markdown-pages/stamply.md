@@ -1,283 +1,79 @@
 ---
 slug: "/stamply"
-date: "March 24, 2021"
+date: "July 12, 2022"
 title: "Stamply"
 description: "A loyalty rewards app for shopping small businesses on Android. 1st place winner, Adobe Creative Jam x Instagram."
 length: "7"
+featuredImage: "../images/headers/stamply.png"
 ---
-<head>
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-</head>
 
-<img alt="Mockup of three phone screens from Stamply app." src="../images/headers/stamply.png"/>
-<br />
+*PING!* At any given point, I can expect a random Taco Bell, Starbucks, or Target notification to ping my phone, letting me know that I can get extra points for shopping or promoting something I might like. And it works. I’m one of the **72% of US adults who belong to at least one loyalty program**, and I’m sure you might be, too.
 
-<style>
-    .carousel img {
-        width: 100%;
-        margin: 10px;
-    }
-    @media screen and ( min-width: 768px ) {
-        .carousel img {
-        width: 100%;
-        height: auto;
-        margin: 10px;
-    }
+Setting up a loyalty rewards program is expensive, with an estimated initial build and customization fee of around **$15,000-$40,000**, not to mention additional costs to manage and maintain customers. While a loyalty rewards program can be a great return on investment, it’s still a big financial risk for small businesses without the resources to sink that development cost.  
 
-    .sticky-nav{
-        position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            z-index: 10;
-            background: #ebf0ff;
-            text-align: center;
-            padding: 10px;
-            height: 50px;
-    }
-    .sticky-nav a{
-        margin: 10px;
-        border-bottom: none;
-        text-transform: uppercase;
-        font-family: aktiv-grotesk, sans-serif;
-        padding: 6px;
-        font-size: 12px;
-        letter-spacing: 0.1rem;
-        margin-bottom: 5px;
-        font-weight: 600;
-    }
-  }
-  .preview{
-      border: 1px solid black;
-      border-radius: 10px;
-      margin: 10px;
-  }
+And for consumers like us, it’s not easy either. On average, we’re loyal to nine different programs across multiple industries. Juggling between several different apps and rewards systems can be confusing. It’s also harder for us to be rewarded for supporting the small businesses we love.
 
-  .col-md-9{
-      display: flex;
-      margin: auto;
-      align-items:center;
-      justify-content:center;
-      padding: 10%;
-  }
-}
-</style>
+## What’s out there for small businesses?
 
-<!-- <div class="sticky-nav" id="sticky-nav">
-  <a href="#problem">Problem</a>
-  <a href="#solution">The Solution</a>
-  <a href="#research">User Research</a>
-  <a href="#ideation">Ideation</a>
-  <a href="#prototype">Prototyping</a>
-  <a href="#presentation">Presentation</a>
-  <a href="#next">Next Steps</a>
-</div> -->
+We searched far and wide for a solution. We didn’t find it on the App Store or online, but in our wallets.
 
-## At-a-glance
+Before the Internet, US companies used physical stamps as their loyalty programs that customers collected in books to exchange for rewards. This evolved into loyalty stamp cards that were cheap and easy for small businesses to print and distribute to loyal customers. Loyalty stamp cards could fit in your wallet and encourage repeat purchases.
 
-Stamply translates the nostalgic experience of getting a loyalty card stamped at your favorite local business to a digital experience that prioritizes discovery and convenience. In this concept app, I participated in a team of two with my partner, Liv Jenks. Stamply was a first place winner for [Adobe College x Ring Creative Jam](https://www.eventbrite.com/e/college-instagram-creative-jam-live-with-adobe-xd-registration-158984552075) out of 200 teams!
-
-<div class="row">
-    <div class="col-sm">
-        <h3>My Role</h3>
-        <p>Product Management<br/>
-        Prototyping<br/>
-        Interaction Design<br/>
-        Visual Design<br/>
-        </p>
-        </div>
-    <div class="col-sm">
-      <h3>Tools used</h3>
-      <p>Adobe XD<br/>Whimsical</p>
-    </div>
-    <div class="col-sm">
-      <h3>Team</h3>
-      <p>Liv Jenks</p>
-    </div>
-    <div class="col-sm">
-      <h3>Timeline</h3>
-      <p>1 week, July 2021 (Hackathon)</p>
-    </div>
-</div>
-
-<hr id="problem"/>
-
-## 01 The Problem
+This gave us inspiration: How might we translate this analog experience to the digital world?
 
 ### The Challenge
 
-Adobe College + Instagram Creative Jam was an event for student designers across the United States, Canada, Australia, and New Zealand. Teams had a week to work, and all submissions were scored by a judging panel of professional designers and product managers. At the Finale, finalist teams presented live to a panel of expert judges from Instagram and Adobe.
+We competed in the Adobe College + Instagram Creative Jam, an event for student designers across the United States, Canada, Australia, and New Zealand. Teams had a week to work, and all submissions were scored by a judging panel of professional designers and product managers. Our challenge was to design an accessible third-party app for Android mobile devices that highlight people’s favorite local and undiscovered small businesses. 
 
->>> Our challenge is to design an accessible third-party app for Android mobile devices that highlight people’s favorite local and undiscovered small businesses.
+![Solve for an accessibility need, Liv was new to Adobe XD, Design for low-bandwidth areas, We were new to Android design, Brief project timeline: 1 week](../images/stamply/constraints.png "Our design constraints during the competition")
 
-### Constraints
+## The Making of Stamply
 
-- Mobile app that solves an accessibility need
-- Liv was a first-time user to Adobe XD
-- Both of us were new to Android design
-- Designing for low-bandwidth areas where connection may not be as strong
-- Brief project timeline to complete
+We ideated using the design thinking canvas, imagining the people, challenges, and impact behind our desired user experience. One of our key constraints was designing for accessibility for people in low-bandwidth areas with less access to the Internet. After all, one of the perks of a physical loyalty card is not needing Wi-Fi to use it.
 
-<hr id="solution"/>
+![Early low-fidelity wireframes of Stamply](../images/stamply/designthinking.png "Early low-fidelity wireframes of Stamply")
 
-## 02 The Solution
+From here, we could decide which features were most crucial and impactful. We designed a user flow map around these conclusions. We wanted to emphasize the discovery of small businesses in your area and maintain the simplicity of our concept.
 
-The solution proposed is an Android loyalty application that uses a reward system to increase engagement with small businesses. On Stamply, you can support diverse, local businesses that align with your values and needs. You will also earn stamps for shopping small that can be used for exclusive rewards. To make the app more accessible, we also designed Stamply to be accessed anywhere, even in low-bandwidth areas, by designing a text-only version of our app.
+![A user flow map of possible app features](../images/stamply/low_fi.png "A user flow map of possible app features")
 
-<div class="carousel"
-  data-flickity='{ "imagesLoaded": true, "fullscreen": true, "percentPosition": false, "wrapAround": true }'>
-  <img src="https://lh3.googleusercontent.com/pw/AM-JKLXrTdwSvyfL52MfpaAZK5fV3WgjDD6A1RVAKsc6A8CT5e4A3gfey-_d001_BEw9jvvaHS310UrtwEnvNqS7VN7NYJiU_9rGm5YKh1fGYFb_fKs_EI5GbYZeFeSdo_Vlz8G7FR6VZiYi3qxG4nAyuvFZ=w1920-h1080-no?authuser=0" alt="orange tree" />
-  <img src="https://lh3.googleusercontent.com/pw/AM-JKLXH4WigOh6OsQ3znbhITtIEgQKp4jp6FwCHOfUXKD6yjhkieaoOJbgkqxs380zGfaAgH67-X5g2bjwXQEjQmevenPOfeXwBEHQZZWrbbaq9sA4clKlRP89bHC152WKG0ulyaOrNid8YmBxJsO4_AWy-=w1920-h1080-no?authuser=0" alt="submerged" />
-  <img src="https://lh3.googleusercontent.com/pw/AM-JKLWesFYZsjLRRLw3SJaZggx2y1v2q4so9t7IMavMhJ3IXJbvhMUyxz8onLMOrcKRXBSHYES1rtKKJ5Hrp9KFneJltxUng4wYkk4pZ8cJLivquLGQAmpbAgM1Py3mg35ukjF1HlfR2Z3JnWlDU73_V_y1=w1920-h1080-no?authuser=0" alt="look-out" />
-</div>
+The app’s initial design included filtering businesses by category and a scannable QR code for small businesses to digitally “stamp” your card. 
 
-<hr id="research"/>
+![A user flow map of possible app features](../images/stamply/userflowmap.png "A user flow map of possible app features")
 
-## 03 User Research
+### Medium-fidelity demo
 
-### Defining the problem space
+One idea that arose out of our low-fidelity wireframes was a text-only version of Stamply to maximize accessibility of our app in low-bandwidth areas. We decided to expand on this idea in our medium-fidelity wireframes, always asking ourselves: What is the minimum we need to offer maximum impact in our design?
 
-Liv and I went through the phases of the design thinking canvas, thinking clearly through the people, challlenges, storytelling, problem, solutions, management, vision and impact using the design thinking canvas. This helped us evaluate the strength of our ideas to ensure we were thinking of our users in mind.
+<iframe width="100%" height="600px" src="https://xd.adobe.com/embed/39e41b85-775a-46f4-945d-e0009bcbd618-6cb7/" frameborder="0"></iframe>
 
-![Design Thinking Canvas created to help us ideate different parts of our concept](../images/stamply/designthinking.png "Design Thinking Canvas created to help us ideate different parts of our concept")
+### High-fidelity demo
 
-### User flow
+Our latest iteration of Stamply focuses on showing you small businesses you want to support with an efficient rewards process for the consumer. With just a quick QR code scan, businesses can easily “stamp” your card. Our overall goal was to create an app that would make it easier to shop at diverse, small businesses and get rewarded for it. With a highly minimalistic design, consumers can easily transition between the text-only and default mode for Stamply without missing out on functionality.
 
-For the user flow, we decided on different interactions in our app based on our initial brainstorm of features. This served as a reference for us later when prototyping our design.
+<iframe width="100%" height="600px" src="https://xd.adobe.com/embed/d4019ede-c15f-46db-98bd-b6bfe5f81b05-8152/" frameborder="0"></iframe>
 
-![Several columns of post-it notes describing feature ideas for Stamply](../images/stamply/userflow.png "Brainstorm of features we wanted to include in our app")
+## Awards
 
-<hr id="ideation"/>
+We won first place at the Adobe Creative Jam! At the Finale, we presented live to a panel of expert judges from Instagram and Adobe.
 
-## 04 Ideation
-
-### Low-Fidelity
-
-We began with low-fidelity wireframes, trying out different versions of screens and outlining sections of our app using Whimsical. ![Wireframes based on new app concept design for Stamply.](../images/stamply/low.png "Visual explorations through low-fidelity wireframes.")
-
-### Medium-Fidelity
-
-We then transitioned to Adobe XD, where we referenced styles from Adobe XD UI Kits and applied preliminary styles from our design system to create medium fidelity wireframes. We relied greatly on Material Design principles to help us think through visual hierarchy on screen. ![Wireframes based on new app concept design for Stamply.](../images/stamply/medium.png "Visual explorations through medium-fidelity wireframes.")
-
-### Design System
-
-We built a modular, component-based design system to prioritize consistency and usability across our product. Our visual design takes inspiration from the brand identity of the Shop Small movement while maintaining a highly minimalistic and simple design with only a few accent colors to increase accessibility between the text-only and default modes for our app.
-
-![Design system guide broken down into components, color, and illlustrations.](../images/stamply/designsystem.png "We created our own design system and built our branding!")
-
-<hr id="prototype"/>
-
-## 05 Prototyping
-
-### Final Prototype
-
-From here, we went on to implement branding, microinteractions, animations, and color through our high-fidelity wireframes. Prototyping on Adobe XD taught us how to tell a visual story through microinteractions. We took advantage of the smart-animate and timing features to make our app more interactive and realistic. View the [interactive prototype here.](https://xd.adobe.com/view/ba385aff-46f6-401d-9dd1-a2d021d96ddf-ef6b/)
-
-<!-- <iframe width="600" height="400" src="https://xd.adobe.com/embed/d4019ede-c15f-46db-98bd-b6bfe5f81b05-8152/?fullscreen&hints=off" frameborder="0" allowfullscreen></iframe> -->
-
-<div class="row">
-    <div class="col-md-3">
-        <img class="preview" style="width: inherit" alt="otter dancing with a fish"
-        src="https://lh3.googleusercontent.com/pw/AM-JKLUih_pcfeK7MvT5q4UJ85K_QBodLaBYL1XlPO96iDnls9DNT5gdD2xjTkS-wFI9WB0aWRY4RAVufP7msnqsti0QksgqcY0kMfgMl_LSyHcG7HNb2bvgLGXBE9mUtaX02FmvvC7EE3NoXQpSQrmWK7ml=w546-h1148-no?authuser=0">
-    </div>
-    <div class="col-md-9" >
-        <div>
-            <div>
-                <h4>Onboarding</h4>
-                <h5>App Preview</h5>
-                <p>We wanted to let users preview the features available and start filtering for small businesses they wanted to shop. </p>
-                <h5>Micro-interactions</h5>
-                <p>We added small, subtle animations for our app start screen and connecting to wifi.</p>
-                <h5>Accessibility tools</h5>
-                <p>From the onboarding, you can opt out of location tracking to use your last saved location when connection is limited and choose to use a text-only version of the app.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-        <img class="preview" style="width: inherit" alt="otter dancing with a fish"
-        src="https://lh3.googleusercontent.com/pw/AM-JKLVAO4TqXzAoIV_tG2QYawmdOoe5UDxbYbnA7t-RHLuMOFnnorIkkwb2gzovSVtsYQZniDUleOzZgo7uwSaD4O7PoFrqi8GIrBJ9NIekhiTh2RnZsML69kGN8muVnDCoBm9IkD3jCXilNQtlcz34s3tU=w546-h1148-no?authuser=0">
-    </div>
-    <div class="col-md-9" >
-        <div>
-            <h4>Stamply Lite</h4>
-            <h5>“Lite” version for low-bandwidth connectivity</h5>
-            <p>Stamply Lite lets users experience Stamply without media while still getting the information and details you need. Our app automatically detects when a user's connection is low bandwidth and prompts them to switch to a text-only version.</p>
-            <h5>Minimalist design</h5>
-            <p>We prioritize showcasing essential information and details needed to discover small businesses that matter to you through a light, minimalist interface to lessen the transition between Stamply and Stamply Lite.</p>
-            </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-        <img class="preview" style="width: inherit" alt="otter dancing with a fish"
-        src="https://lh3.googleusercontent.com/pw/AM-JKLVMC56zLuRXIvDtJJzvhZH09Od5LU2ZZKTb4U2NOldxn4ZU1Thycp15mE21fIau6-tnIYnTjYTHefdr04Rojlu95RckRtXv0LDWdT1S56YnbdVoFDjwcU2uv3ejt-juQOI828uT76LQH27K4T9J9Zay=w546-h1148-no">
-    </div>
-    <div class="col-md-9">
-        <div>
-            <h4>Discover Small Businesses</h4>
-            <h5>Small Business Pages</h5>
-            <p>Learn more about a small business and its story, save it as a favorite, and stamp its card for rewards.</p>
-            <h5>Digital Stamps</h5>
-            <p>Earn digital stamps for shopping small that can be redeemed for rewards to help businesses build a loyal customer base.Redeem using scannable QR codes and mark offers as used.</p>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-        <img class="preview" style="width: inherit" alt="otter dancing with a fish"
-        src="https://lh3.googleusercontent.com/pw/AM-JKLUWz-1y1v26tAd8hN3JuTUtx-9QZ23E1tl48OpyGKjKcwUDhmHZpHj-i5VCu1uIuj6LZz_-zK2UqPXCK3h9B_uql9ENic4_zaOGviimTQPUlyT4UEqISrWWveXbTKCOm1-vEZqnK1T8OYFwTNBUkEqk=w546-h1148-no">
-    </div>
-    <div class="col-md-9" >
-        <div>
-            <div>
-                <h4>Search & Explore</h4>
-                <h5>Filterable tools</h5>
-                <p>Flexibly search and filter by category, goods and services, and location to find businesses by BIPOC owners that mathc your criteria.</p>
-                <h5>Location search</h5>
-                <p>When your bandwidth is low, Stamply will use your last saved location to locate businesses near you. You can also use predetermined major cities to search.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<hr id="presentation"/>
-
-## 06 Presentation
-
-### We won first place at the Adobe Creative Jam!
-
-We received notification that we made it to the top 10 and had a few days to prepare for the next round! As finalists, we presented in the Finale with a live 3-minute demo of our app and its user flow.
-
-#### Finalist Presentation
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fl8st5-dwZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="padding: 30px" width="1000" height="600" src="https://www.youtube.com/embed/Fl8st5-dwZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Feedback
 
-“I might just be old school, but I love the loyalty program aspect of [Stamply] and the gratification of getting stamps for rewards. It was done in a very simple and concise way, which was great.”
+> I might just be old school, but I love the loyalty program aspect of [Stamply] and the gratification of getting stamps for rewards. It was done in a very simple and concise way, which was great.
+>
+> **– Paula Guzman, Product Designer at Instagram**
 
-**– Paula Guzman, Product Designer at Instagram**
+> It felt incredibly straightforward and intuitive to use. I appreciate the focus on ‘lite,’ having a text-only version, and I liked that that feature was mentioned early in the onboarding flow to show the value of the app.
+>
+> **– Adam Kopec, Product Designer at Instagram**
 
-“It felt incredibly straightforward and intuitive to use. I appreciate the focus on ‘lite,’ having a text-only version, and I liked that that feature was mentioned early in the onboarding flow to show the value of the app.”
+> I love that the value props are clear in the onboarding, and it’s a really lovely idea to highlight minority-owned businesses. I would definitely use this app.
+>
+> **– Celeste Lam, Creative Director at Adobe**
 
-**– Adam Kopec, Product Designer at Instagram**
-
-“I love that the value props are clear in the onboarding, and it’s a really lovely idea to highlight minority-owned businesses. I would definitely use this app.”
-
-**– Celeste Lam, Creative Director at Adobe**
-
-#### Award ceremony
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cypBLMjyVqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<hr id="next"/>
-
-## 07 Next Steps
+## Moving Forward
 
 ### Refine the visual system to be more friendly and warm
 
@@ -290,5 +86,3 @@ One of the pieces of feedback we got from the judges was to incorporate features
 ### Build business version of the app
 
 “Stamply Business” would allow businesses to create and tailor their profiles with photo galleries, their origin/founding stories, and customize the rewards they offer customers.
-
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

@@ -4,10 +4,8 @@ date: "July 15, 2021"
 title: "Nutrikitchen"
 description: "All-in-one smart kitchen and health app that understands your medical and dietary needs."
 length: "5"
+featuredImage: "../images/headers/nutrikitchen.png"
 ---
-
-<img alt="Mockup of three phone screens from Nutrikitchen app." src="../images/headers/nutrikitchen.png"/>
-<br />
 
 ## Introduction
 
@@ -25,7 +23,7 @@ Designed for people with limited mobility, dietary restrictions, and specialized
 
 ### Prompt
 
->>> “Your challenge is to provide peace of mind and help people install, operate, or share devices and information to improve their surveillance, communication, temperature, and entertainment around the home and their neighborhood. Design an inclusive third-party mobile app for a specific persona with special needs to help bridge the technology gap.”
+> “Your challenge is to provide peace of mind and help people install, operate, or share devices and information to improve their surveillance, communication, temperature, and entertainment around the home and their neighborhood. Design an inclusive third-party mobile app for a specific persona with special needs to help bridge the technology gap.”
 
 ### Concept
 
@@ -105,9 +103,9 @@ We built a modular, component-based design system to prioritize consistency and 
 Prototyping on Adobe XD was new for us and we had multiple screens with complex actions and microinteractions. We relied heavily on our user flow diagram to plan out interactions in our app and took advantage of Adobe XD’s smart-animate and timing features to create visual delight in our screens.
 
 <p>
-    <video preload="auto" autoplay="autoplay" loop="loop" controls      style="max-width: 100%; height: auto;">
-    <source src="https://i.imgur.com/FiNahgC.mp4" type="video/mp4">
-    </video>
+   <video preload="auto" autoplay="autoplay" loop="loop" controls      style="max-width: 100%; height: auto;">
+   <source src="https://i.imgur.com/FiNahgC.mp4" type="video/mp4">
+   </video>
 </p>
 
 ---
