@@ -4,10 +4,8 @@ date: "May 17, 2021"
 title: "Google OneToday"
 description: "Redesigning social donations for a failed Google product."
 length: "10"
+featuredImage: "../images/headers/google.png"
 ---
-
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/google.png"/>
-<br />
 
 ## Introduction
 

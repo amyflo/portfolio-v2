@@ -4,10 +4,8 @@ date: "March 24, 2021"
 title: "Ray Traced Image"
 description: "A Mulan-inspired ray-traced image using Blender Cycles."
 length: "5"
+featuredImage: "Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/cycles.png"/>
 ---
-
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/cycles.png"/>
-<br />
 
 ## At-a-glance
 

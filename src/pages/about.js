@@ -19,7 +19,7 @@ export default function About() {
             <StaticImage style={{ "border-radius": "15px" }} src="../images/about/me.jpeg" />
           </Col>
           <Col md="8">
-            <Fade bottom>
+            <Fade top>
               <h1>Hi, I'm Amy!</h1>
               <p>
                 I'm at Stanford University studying Psychology and Computer Science, set to graduate in June 2024.
@@ -30,12 +30,12 @@ export default function About() {
                 Last summer, I interned at the Federal Reserve Board of Governors, designing and developing their internal design system.
               </p>
               <p>
-                Currently, I am a TA for CS106A (Python) and CS106B (C++), where I teach a weekly section of 10-15 students introductory computer science.
-                I'm also a Resident Assistant for a 60-person dorm at Stanford, and research in the Stanford Culture and Emotion Lab and the Stanford Memory Lab,
+                I was a TA for CS106A (Python) and CS106B (C++), where I taught a weekly section of 10-15 students introductory computer science.
+                I was also a Resident Assistant for a 60-person dorm at Stanford. I currently research in the Stanford Culture and Emotion Lab and the Stanford Memory Lab,
                 where I am working on a VR project studying memory.
               </p>
               <p>
-                In my free time, I love picnics, hosting themed parties, and making bad jokes.
+                In my free time, I love picnics, hosting themed parties, and reading. 
               </p>
             </Fade>
           </Col>

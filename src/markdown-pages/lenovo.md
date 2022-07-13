@@ -1,14 +1,13 @@
 ---
 slug: "/lenovo"
-date: "March 25, 2022"
-title: "Lenovo Content Audit Project"
-description: "Visualizing page traffic and revenue for Lenovo WorldWide eCommerce."
-length: "4"
+date: "September 7, 2021"
+title: "Lenovo"
+description: "Visualizing page traffic and over $807 million in revenue for the WorldWide eCommerce team."
+length: "2"
+featuredImage: "../images/headers/Lenovo.png"
 ---
 
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/lenovo-header.png"/>
-<br />
-
+## Introduction
 
 ## At-a-glance
 

@@ -13,13 +13,13 @@ export default function Home() {
       <title>Amy Lo</title>
       <Hero intro="I study neuroscience and human-computer interaction at Stanford. 
         I'm passionate about ethical tech, system design, and human-centric experiences. 
-        I love making things, especially bad jokes." job="Incoming Summer Analyst at Accenture Interactive."/>
+        I love making things, especially bad jokes." job="Summer Analyst at Accenture Song."/>
       <br />
 
 
       <Container>
         <hr />
-        <h2>Featured Projects</h2>
+        <h2 style={{maxWidth: "none"}}>Featured Projects</h2>
         <Row>
         <HomeCard link="/spacemail" headline="SpaceMail"
             text="A narrative game about delivering packages in space."

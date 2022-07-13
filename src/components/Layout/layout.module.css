@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/top4nrr.css");
 
- 
+
 :root {
-  --mainColor:#3a86ff;
+  --mainColor: #3a86ff;
   --SecondaryColor: #a7c9ff;
   --heading: black;
-  --textColor:#454545;
+  --textColor: #454545;
 }
 
 body {
@@ -13,32 +13,71 @@ body {
   color: var(--textColor);
   margin: auto;
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   line-height: 2rem;
+  font-size: 1.05rem;
 }
 
-h1,h2,h3,h4,h5,h6{
+p {
+  max-width: 600px;
+  margin: 0.5rem auto;
+}
+
+figcaption {
   font-family: aw-conqueror-didot, serif;
-  font-weight: 700;
+  font-style: italic;
+  margin-top: 0rem;
+  margin-bottom: 3rem;
+}
+
+blockquote {
+  font-family: aw-conqueror-didot, serif;
+  max-width: 600px;
+  margin:0rem auto;
+  padding:1.2em 1em 1em 60px;
+  line-height:1.6;
+  position: relative;
+  border-radius: 10px;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: aw-conqueror-didot, serif;
+  font-weight: 400;
   font-style: normal;
   color: var(--heading);
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px 10px 0px 0px;
 }
 
-h1{
-  color: var(--mainColor);
+
+h1 {
+  font-weight: 600;
 }
 
-h3, h5{
-  color: var(--mainColor);
+h3{
+  font-weight: 600;
+  font-size: larger;
 }
 
-.center{
+
+.center {
   text-align: center;
-}
-
-.container{
-  padding: 20px;
 }
 
 a {
@@ -49,55 +88,16 @@ a {
 
 a:hover {
   text-decoration: none;
-  color:var(--mainColor);
+  color: var(--mainColor);
   border-bottom-color: var(--mainColor);
 }
 
-blockquote p {
-  border-left: 4px solid var(--SecondaryColor);
-  padding: 10px 15px;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5rem;
-  font-family: aw-conqueror-didot, serif;
-}
-
-figcaption {
-  font-family: aw-conqueror-didot, serif;
-  font-size: 1.15rem;
-  margin: 10px auto;
-}
-
-iframe,
-figure {
-  padding: 2%;
-}
 
 video {
   padding: 10px 0px;
 }
 
-figcaption {
-  text-align: center;
-}
-
-hr{
-  margin: 30px 0px;
-  border-color: var(--mainColor);
-}
-/* 
-::selection {
-  color: white;
-  background: var(--mainColor);
-}
-
-::-moz-selection {
-  color: white;
-  background: var(--mainColor);
-} */
-
-
-.responsive-iframe{
+.responsive-iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -107,17 +107,13 @@ hr{
   height: 100%;
 }
 
-.iframe-container{
-  position: relative;
+.iframe-container {
+  margin: auto;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
 
-.override-image{
+.override-image {
   padding: 0px;
-}
-
-.preview{
-  border: 1px solid #d3d3d3;
 }

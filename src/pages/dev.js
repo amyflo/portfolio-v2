@@ -9,7 +9,7 @@ export default function Dev() {
     return (
         <Layout>
             <Container>
-                <h1>Coding Projects</h1>
+                <h1 style={{maxWidth: "none"}}>Coding Projects</h1>
                 <Row>
                     <HomeCard link="/bunnyworld" headline="BunnyWorld"
                         text="An Android app for creating, editing, and playing custom games."

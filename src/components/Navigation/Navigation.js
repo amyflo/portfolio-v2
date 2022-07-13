@@ -20,9 +20,6 @@ export default function Navigation() {
             <Nav.Link href="/dev">
               <h6 className="underline">Code</h6>
             </Nav.Link>
-            <Nav.Link href="/fails">
-              <h6 className="underline">Fails</h6>
-            </Nav.Link>
             <Nav.Link href="/resume">
               <h6 className="underline">Resume</h6>
             </Nav.Link>

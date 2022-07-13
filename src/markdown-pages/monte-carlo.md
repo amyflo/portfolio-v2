@@ -4,10 +4,8 @@ date: "March 24, 2022"
 title: "Monte Carlo Recursive Ray Tracer"
 description: "A Monte-Carlo recursive ray tracer of the Classic Cornell box."
 length: "5"
+featuredImage: ../images/headers/monte-carlo.png"
 ---
-
-<img alt="Mockup of two phone screens showcasing donations next to Google logo in the center." src="../images/headers/monte-carlo.png"/>
-<br />
 
 ## At-a-glance
 
